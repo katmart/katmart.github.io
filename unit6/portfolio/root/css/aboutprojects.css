@@ -1,0 +1,180 @@
+#container1 {
+	width: 1024px;
+}
+#container2 {
+	width: 1024px;
+}
+header {
+	padding:10px;
+}
+h1 {
+	font-family: 'Alfa Slab One';
+	font-size: 36px;
+	color: rgba(35, 66, 126, .9);
+
+}
+header h1 {
+	color: rgba(255, 216, 187, .8);
+	margin: 80px 0 30px 10px;
+	text-decoration: none;
+}
+h1 a {
+	text-decoration: none;
+	color: rgba(255, 216, 187, 1);
+}
+
+.rightcolumn h1 {
+	margin:0 0 50px 30px;
+}
+
+h2 {
+	font-family: 'Alfa Slab One';
+	font-size: 24px;
+	color: rgba(98, 88, 147, .9);
+}
+.rightcolumn h2 {
+ margin: 10px 0 10px 50px;
+}
+
+p {
+	font-family: 'Driod Sans';
+	font-size: 16px;
+	color: rgba(98, 88, 147, .9);
+}
+nav {
+	width: 200px;
+	height: 210px;	
+	margin: 20px 0 10px 25px;
+	text-align: center;	
+}
+
+nav a {
+	display: block;
+	text-decoration: none;   
+	color: rgba(35, 66, 126, .9);
+	font-family: 'Alfa Slab One';
+	font-size: 24px;
+	padding: 5px;
+	width: 150px;
+
+}
+nav#fixalign{
+	margin-left: 50px;
+text-align: center;
+}
+
+a:hover {
+	color: rgba(98, 88, 147, 1);
+}
+
+aside {
+	width: 280px;
+	height: 1300px;
+	background-color: rgba(35, 66, 126, .9);
+	float: left;
+	text-align: center;
+	border-left: 3px solid rgba(253, 194, 170, 1)
+}
+
+#hnavigation {
+	margin: 200px 0 0 775px;
+}
+
+.rightcolumn {
+	width: 720px;
+	float: right;
+	margin: 80px 0 0 0;
+	padding: 10px;
+}
+
+.projectscontain {
+	width: 700px;
+	float: left;
+	padding: 20px;
+	margin-top: 5px;
+}
+.boxdisplay {
+	width: 170px;
+	float: left;
+	border: 2px solid #502930;
+	margin: 10px 0 10px 30px;
+	border-radius: 30px;
+	padding: 10px
+}
+#about{
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#resume{
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#web {
+	margin-bottom: 15px;
+}
+
+#analogue {
+	margin-bottom: 15px;
+
+}
+
+#misc {
+	margin-bottom: 15px;
+
+}
+
+#hbuttonone {
+	border-radius: 20px;
+	background-color: rgba(253, 194, 170, .3);
+	float: left;
+	clear: both;
+	margin: 3px;
+}
+#hbuttontwo {
+	border-radius: 20px;
+	background-color: rgba(98, 88, 147, .3);
+	float: left;
+	clear: both;
+	margin: 3px;
+}
+
+#hbuttonthree {
+	border-radius: 20px;
+	background-color: rgba(35, 66, 126, .3);
+		float: left;
+	clear: both;
+	margin: 3px;
+}
+#abuttonone {
+	border-radius: 20px;
+	background-color: rgba(141, 82, 63, .8);
+	float: left;
+	clear: both;
+	margin: 3px;
+}
+#abuttontwo {
+	border-radius: 20px;
+	background-color: rgba(182, 177, 200, .8);
+	float: left;
+	clear: both;
+	margin: 3px;
+}
+
+#abuttonthree {
+	border-radius: 20px;
+	background-color: rgba(255, 216, 187, .8);
+	float: left;
+	clear: both;
+	margin: 3px;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
