@@ -9,13 +9,12 @@ body {
   line-height: 32px;
 
 }
-/*
+
 h1 {
 background: url("Assets/logo-taasky.png") no-repeat;
 display: block;
 width: 147px;
 height: 44px;
- Hide the text 
 text-indent: 1000em;
 white-space: nowrap;
 overflow: hidden;
@@ -23,8 +22,6 @@ overflow: hidden;
 
 hr {
 width: 35px;
-have hr follow/align with other text. No margin needed, but set to 0
 margin: 0;
 border-color: #905d67;
 }	
-*/
