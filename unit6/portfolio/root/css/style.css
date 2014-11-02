@@ -17,11 +17,11 @@ header {
 	padding:10px;
 }
 
-header h1 {
+#homeheader {
 	font-family: 'Alfa Slab One';
 	font-size: 36px;
 	color: rgba(255, 216, 187, .9);
-	margin: 80px 0 30px 10px;
+	margin: 30px 0 30px 10px;
 
 }
 
@@ -50,7 +50,7 @@ nav a {
 	font-family: 'Alfa Slab One';
 	font-size: 24px;
 	padding: 5px;
-	width: 150px;
+	width: 200px;
 
 }
 nav#fixalign{
@@ -59,7 +59,7 @@ text-align: center;
 }
 
 a:hover {
-	color: #492033;
+	color: rgba(98, 88, 147, 1);
 }
 
 aside {
@@ -72,7 +72,7 @@ aside {
 }
 
 #hnavigation {
-	margin: 200px 0 0 775px;
+	margin: 300px 0 0 800px;
 }
 
 .rightcolumn {
@@ -88,19 +88,18 @@ aside {
 }
 #resume{
 	padding: 10px;
-
 	margin-bottom: 10px;
 }
 #hbuttonone {
 	border-radius: 20px;
-	background-color: rgba(253, 194, 170, .3);
+	background-color: rgba(255, 216, 187, .8);
 	float: left;
 	clear: both;
 	margin: 3px;
 }
 #hbuttontwo {
 	border-radius: 20px;
-	background-color: rgba(98, 88, 147, .3);
+	background-color: rgba(141, 82, 63, .8);
 	float: left;
 	clear: both;
 	margin: 3px;
@@ -108,21 +107,21 @@ aside {
 
 #hbuttonthree {
 	border-radius: 20px;
-	background-color: rgba(35, 66, 126, .3);
+	background-color: rgba(182, 177, 200, .8);
 		float: left;
 	clear: both;
 	margin: 3px;
 }
 #abuttonone {
 	border-radius: 20px;
-	background-color: rgba(253, 194, 170, .3);
+	background-color: rgba(255, 216, 187, .8);
 	float: left;
 	clear: both;
 	margin: 3px;
 }
 #abuttontwo {
 	border-radius: 20px;
-	background-color: rgba(98, 88, 147, .3);
+	background-color: rgba(141, 82, 63, .8);
 	float: left;
 	clear: both;
 	margin: 3px;
@@ -130,7 +129,7 @@ aside {
 
 #abuttonthree {
 	border-radius: 20px;
-	background-color: rgba(35, 66, 126, .3);
+	background-color: rgba(182, 177, 200, .8);
 	float: left;
 	clear: both;
 	margin: 3px;
