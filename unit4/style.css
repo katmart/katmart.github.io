@@ -1,0 +1,122 @@
+body {
+	background: url(images/gravyqsauce.jpg) no-repeat;
+  	background-attachment: fixed;
+  	 margin: 0 auto;
+  	 max-width: 1300px;
+
+	}
+div {
+  	background-size: cover;
+  	position: relative;
+  	padding: 15px;
+  	margin: 15px;
+  	overflow: hidden;
+
+}
+p {
+	color: rgba(255, 255, 255, 1);
+	background-color: black;
+	background: linear-gradient(bottom, rgba(225,200,125,1), rgba(105,117,96,.5));
+ 	background: -webkit-linear-gradient(bottom, rgba(225,200,125,1), rgba(105,117,96,.7));
+  	background: -moz-linear-gradient(bottom, rgba(225,200,125,1), rgba(105,117,96,.5));	
+  	padding: 20px;
+	position: absolute;
+	text-align: justify;
+	bottom: 0;
+	margin: 15px;
+	border-radius: 15px;
+	color: rgba(57, 57, 57, 1);
+	font-style: italic;
+	line-height: 25px;
+}
+small {
+	font-size: 15px; 
+	color: rgba(105, 117, 96, 1)
+}
+h1{
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 185px;
+	font-family: 'oleo script';
+	font-size: 210px;
+	color: rgba(225, 200, 125, 1);	
+	line-height: 165px;
+	text-align: center;
+	border-radius: 25px;
+text-decoration: bold;
+		text-shadow: 5px 5px rgb(105, 117, 96);
+
+/*background-color: rgba(120,120, 120,.6);
+
+background: linear-gradient(bottom, rgba(105,117,96,1), rgba(135,21,25,.7));
+ 	background: -webkit-linear-gradient(bottom, rgba(105,117,96,1), rgba(135,21,25,.7));
+  	background: -moz-linear-gradient(bottom, rgba(105,117,96,1), rgba(135,21,25,.7));	
+	border-right-width: 3px;
+	border-left-width: 6px;
+	border-top-width: 6px;
+	border-bottom-width: 3px;
+	border-top-style: ridge;
+	border-top-color: rgba(95, 65, 71, .7);
+	border-left-style: ridge;
+	border-left-color: rgba(95, 65, 71, .7);
+	border-right-style: ridge;
+	border-right-color: rgba(130, 66, 72, .7);
+		border-bottom-style: ridge;
+	border-bottom-color: rgba(130, 66, 72, .7);*/
+	}
+h2{
+	margin: -90px 0 100px 0;
+	color: rgba(158,69,72,1);	
+}
+.tagline{
+	font-family: 'oleo script';
+	text-align: center;
+	font-size: 45px;
+	height: 55px;
+	background-color: rgba(155,21,25,.6);
+	border-radius: 15px;
+	text-shadow: 1px 1px rgb(105, 117, 96);
+	background: linear-gradient(bottom, rgba(225,200,125,1), rgba(105,117,96,.7));
+ 	background: -webkit-linear-gradient(bottom, rgba(225,200,125,1), rgba(105,117,96,.7));
+  	background: -moz-linear-gradient(bottom, rgba(225,200,125,1), rgba(105,117,96,.7));
+
+}
+.brunch {
+	background-image: url(images/apricotpancake.JPG);
+	margin-left: 35px auto;
+	margin-right: 35px auto;
+	width: 450px;
+	height: 375px;
+	font-family: 'Quattrocentro Sans', sans-serif; 
+	font-size: 28px;
+	border-radius: 25px;
+	float: left;
+	padding: 15px;
+	border-top-style: solid;
+	border-top-color: rgba(105, 117, 96, .8);
+	border-top-width: 5px;
+}
+.dinner {
+	background-image: url(images/venison.jpg);
+	margin-left: 35px auto;
+	margin-right: 35px auto;
+	width: 450px;
+	height: 375px;
+	font-family: 'Quattrocentro Sans', sans-serif; 
+	font-size: 28px;
+	border-radius: 25px;
+	float: right;
+	border-top-style: solid;
+	border-top-color: rgba(105, 117, 96, .8);
+	border-top-width: 5px;
+}
+.meal {
+	color: rgba(158, 66, 72, 1);
+	font-style: normal;
+	font-family: 'oleo script';
+	font-size: 46px;
+	text-shadow: 1px 1px rgb(105, 117, 96);
+
+}
