@@ -1,0 +1,30 @@
+body {
+  background: url("Assets/stripes.png"), url("Assets/background.jpg") #52596b; 
+  background-repeat: repeat-x, no-repeat;
+  font-size: 26px;
+  font-family: helvetica, arial, sans-serif;
+  color: #fff;
+  margin: 270px 200px;
+  font-weight: 200px;
+  line-height: 32px;
+
+}
+/*
+h1 {
+background: url("Assets/logo-taasky.png") no-repeat;
+display: block;
+width: 147px;
+height: 44px;
+ Hide the text 
+text-indent: 1000em;
+white-space: nowrap;
+overflow: hidden;
+}
+
+hr {
+width: 35px;
+have hr follow/align with other text. No margin needed, but set to 0
+margin: 0;
+border-color: #905d67;
+}	
+*/
