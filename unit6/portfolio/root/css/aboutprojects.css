@@ -1,53 +1,48 @@
-#container1 {
-	width: 1024px;
-}
+
 #container2 {
 	width: 1024px;
+	font-size: 16px;
 }
 header {
-	padding:10px;
+	padding:1em;
 }
 h1 {
 	font-family: 'Alfa Slab One';
-	font-size: 36px;
+	font-size: 2.5em;
 	color: rgba(35, 66, 126, .9);
 
 }
-#homeheader {
-	color: rgba(255, 216, 187, .8);
-	margin: 80px 0 30px 10px;
-	text-decoration: none;
-}
+
 h1 a {
 	text-decoration: none;
 	color: rgba(255, 216, 187, 1);
 }
 
 .rightcolumn h1 {
-	margin:0 0 50px 30px;
+	margin:0 0 3em 1em;
 }
 
 h2 {
 	font-family: 'Alfa Slab One';
-	font-size: 24px;
+	font-size: 1.75em;
 	color: rgba(98, 88, 147, .9);
 }
 .rightcolumn h2 {
- margin: 10px 0 10px 50px;
+ margin: .8em 0 .8em 3.1em;
 }
 
 p {
 	font-family: 'Driod Sans';
-	font-size: 16px;
+	font-size: 1em;
 	color: rgba(98, 88, 147, .9);
 }
 #about #resume p {
-	margin: 0 0 0 30px;
+	margin: 0 3em 0 3em;
 }
 nav {
-	width: 200px;
-	height: 210px;	
-	margin: 20px 0 10px 25px;
+	width: 20%;
+	height: 25%;	
+	margin: 1.3em 0 1.3em 1.5em;
 	text-align: center;	
 }
 
@@ -56,13 +51,13 @@ nav a {
 	text-decoration: none;   
 	color: rgba(35, 66, 126, .9);
 	font-family: 'Alfa Slab One';
-	font-size: 24px;
-	padding: 5px;
+	font-size: 1.8em;
+	padding: .3em;
 	width: 200px;
 
 }
 nav#fixalign{
-	margin-left: 20px;
+	margin-left: .4em;
 	text-align: center;
 }
 
@@ -71,33 +66,29 @@ a:hover {
 }
 
 aside {
-	width: 275px;
-	height: 1300px;
+	width: 17em;
+	height: 190em;
 	background-color: rgba(35, 66, 126, .9);
 	float: left;
 	text-align: center;
 	border-left: 8px solid rgba(253, 194, 170, 1)
 }
 aside h1 {
-	margin-top: 10px;
-}
-
-#hnavigation {
-	margin: 200px 0 0 775px;
+	margin-top: 3em;
 }
 
 .rightcolumn {
-	width: 720px;
+	width: 200%;
 	float: right;
-	margin: 60px 0 0 0;
-	padding: 10px;
+	margin: 3em 0 0 0;
+	padding: .8em;
 }
 
 .projectscontain {
-	width: 700px;
+	width: 50%;
 	float: left;
-	padding: 10px;
-	margin-top: 5px;
+	padding: .7em;
+	margin-top: .3em;
 }
 .boxdisplay {
 	width: 170px;
@@ -108,63 +99,40 @@ aside h1 {
 	padding: 10px
 }
 #about{
-	padding: 10px;
-	margin-top: 20px;
-	margin-bottom: 15px;
-	margin-left: 50px;
+	padding: .8em;
+	margin-top: 1.25em;
+	margin-bottom: .95em;
+	margin-left: 3.1em;
 }
 #resume{
-	padding: 10px;
-	margin-bottom: 15px;
-		margin-left: 50px;
-
+	padding: .8em;
+	margin-bottom: 1.95em;
+		margin-left: 3.5em;
 }
 
 #web {
-	margin-bottom: 15px;
+	margin-bottom: 1.95em;
 }
 
 #analogue {
-	margin-bottom: 15px;
+	margin-bottom: 1.95em;
 
 }
 
 #misc {
-	margin-bottom: 15px;
+	margin-bottom: 1.95em;
 
 }
 
-#hbuttonone {
-	border-radius: 20px;
-	background-color: rgba(141, 82, 63, .8);
-	float: left;
-	clear: both;
-	margin: 3px;
-}
-#hbuttontwo {
-	border-radius: 20px;
-	background-color: rgba(182, 177, 200, .8);
-	float: left;
-	clear: both;
-	margin: 3px;
-}
-
-#hbuttonthree {
-	border-radius: 20px;
-	background-color: rgba(255, 216, 187, .8);
-		float: left;
-	clear: both;
-	margin: 3px;
-}
 #abuttonone {
-	border-radius: 20px;
+	border-radius: 1.1em;
 	background-color: rgba(141, 82, 63, .8);
 	float: left;
 	clear: both;
 	margin: 3px;
 }
 #abuttontwo {
-	border-radius: 20px;
+	border-radius: 1.1em;
 	background-color: rgba(182, 177, 200, .8);
 	float: left;
 	clear: both;
@@ -172,7 +140,7 @@ aside h1 {
 }
 
 #abuttonthree {
-	border-radius: 20px;
+	border-radius: 1.1em;
 	background-color: rgba(255, 216, 187, .8);
 	float: left;
 	clear: both;
