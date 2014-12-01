@@ -1,32 +1,41 @@
-body { 
+html { 
   background: url("../assets/images/backcover.jpg") no-repeat center center fixed; 
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: hidden;
 }
 
-section {
+body {
+	width: 960px;
+	font-size: 16px;
+	font-family: 'Alfa Slab One';
+	position: relative;
+}
+
+#container {
 	width: 100%;
-	font-size: 20px;
 }
 
 header {
-	width: 200%;
+	width: 100%;
 	padding:.1em;
-	font-size: 2em;
+	text-align: center;
 	background-color: rgba(55, 55, 55, .4);
 }
 
 header h1 {
 	font-family: 'Alfa Slab One';
 	color: rgba(255, 216, 187, .9);
+	font-size: 2.5em;
 	margin: .5em 0 .5em .5em;
 }
 
 header h2 {
 	font-family: 'Alfa Slab One';
-	font-size: .55em;
+	font-size: 1em;
 	color: rgba(255, 216, 187, .9);
 	margin: .3em 0 .5em .95em;
 }
@@ -95,7 +104,7 @@ clear: both;
 height: 0;
 }
 
-@media (max-width: 960px) {
+@media only screen and (max-width: 960px) {
 nav {
 	float: none;
 	width: auto;
@@ -109,63 +118,54 @@ nav {
 	}
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 451px) {
 nav {
 	width: auto;
 	float: none;
 	margin: 10em 0 .0 15em;
 	}
 	header h1 {
-		font-size: .75em;
+		font-size: 2em;
 	}
 	header h2 {
-		font-size: .4em;
+		font-size: 1em;
 	}
 }
 @media (max-width: 450px) {
-
-body {
-	background: none; 
-	background-color: rgba(55, 98, 58, .9);
+html {
+	  background: url("../assets/images/backcovermobile.jpg") no-repeat center center fixed; 
+	height: 100%;
 }
-section {
-	width: 100%;
-	background-color: rgba(2, 3, 89, .9);
+#container {
+	width: 50%;
+	height: 800px;
+	background-color: rgba(98, 88, 147, .9);
+	position: relative;
 }
-
 nav {
 	width: 50%;
-	float: none;
-	margin: 3em 0 0 5em;
+	margin: 5em 0 0 8em;
 	}
 header {
-	text-align: none;
 	width: 68%;
-	margin: 1em 0 0 2.3em;
+	height: 10%;
+	margin: 0 0 0 1.5em;
+	font-size: 2em;
 }
-h1 {
-		font-size: .9em;
-	}
 h2 {
-		font-size: .4em;
-	}
-.clearfix {
-
+	font-size: .8em;
 	}
 #hbuttonone {
-	border-radius: 1px;
-	float: none;
+	border-radius: 10px;
 	clear: both;
 	}
 #hbuttontwo {
-	border-radius: 1px;
-	float: none;
-		clear: both;
+	border-radius: 10px;
+	clear: both;
 
 	}
 #hbuttonthree {
-	border-radius: 1px;
-	float: none;
+	border-radius: 10px;
 	clear: both;
 	}
 
