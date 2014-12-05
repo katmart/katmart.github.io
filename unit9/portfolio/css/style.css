@@ -9,8 +9,8 @@ html {
 }
 
 body {
-	width: 960px;
-	font-size: 16px;
+	width: 60em;
+	font-size: 1em;
 	font-family: 'Alfa Slab One';
 	position: relative;
 }
@@ -105,55 +105,61 @@ height: 0;
 }
 
 @media only screen and (max-width: 960px) {
+body {
+	width: 80%;
+	font-size: 1em;
+}
 nav {
 	float: none;
 	width: auto;
 	margin: 13em 0 .0 35em;
 	}
-	header h1 {
-		font-size: .75em;
+	header {
+		width: 100%;
+		font-size: 2.5em;
 	}
 	header h2 {
-		font-size: .4em;
+		font-size: .9em;
 	}
 }
 
-@media only screen and (max-width: 768px) and (min-width: 451px) {
-nav {
-	width: auto;
+@media only screen and (max-width: 959px) and (min-width: 451px) {
+nav {		
 	float: none;
+	width: auto;
 	margin: 10em 0 .0 15em;
 	}
-	header h1 {
-		font-size: 2em;
-	}
-	header h2 {
+	header {
+		width: 100%;
 		font-size: 1em;
 	}
 }
-@media (max-width: 450px) {
+@media only screen and (max-width: 450px) {
 html {
 	  background: url("../assets/images/backcovermobile.jpg") no-repeat center center fixed; 
 	height: 100%;
 }
-#container {
-	width: 50%;
-	height: 800px;
+body {
+	width: 100%;
+	height: 100%;
 	background-color: rgba(98, 88, 147, .9);
 	position: relative;
 }
+header {
+	width: 80%;
+	height: 20%;
+	margin: 0 0 0 .95em;
+	padding: 1em 0 0 0;
+}
+header h1 {
+	font-size: 100%;
+}
+header h2 {
+	font-size: 50%;
+	}
 nav {
 	width: 50%;
-	margin: 5em 0 0 8em;
-	}
-header {
-	width: 68%;
-	height: 10%;
-	margin: 0 0 0 1.5em;
-	font-size: 2em;
-}
-h2 {
-	font-size: .8em;
+	margin: 7em 0 0 7em;
 	}
 #hbuttonone {
 	border-radius: 10px;

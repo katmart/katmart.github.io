@@ -9,42 +9,45 @@ h1 {
 	font-family: 'Alfa Slab One';
 	font-size: 2.5em;
 	color: rgba(35, 66, 126, .9);
-
 }
 
 h1 a {
 	text-decoration: none;
 	color: rgba(255, 216, 187, 1);
 }
+h2 {
+	font-family: 'Alfa Slab One';
+	font-size: 1.75em;
+	color: rgba(98, 88, 147, .9);
+}
+aside {
+	width: 17em;
+	height: 190em;
+	background-color: rgba(35, 66, 126, .9);
+	float: left;
+	text-align: center;
+	border-left: 8px solid rgba(253, 194, 170, 1)
+}
+aside h1 {
+	margin-top: 3em;
+}
+
 .rightcolumn {
 	width: 100%;
 	float: none;
-	margin: 0 0 0 1em;
+	margin: 0 0 0 15em;
 	padding: .8em;
 }
 .rightcolumn h1 {
 	margin:0 0 2em 1em;
 }
 
-h2 {
-	font-family: 'Alfa Slab One';
-	font-size: 1.75em;
-	color: rgba(98, 88, 147, .9);
-}
-
-.rightcolumn h2 {
- margin: .8em 0 .8em 3.1em;
-}
-
 p {
-	font-family: 'Driod Sans';
-	font-size: 1em;
 	color: rgba(98, 88, 147, .9);
 }
-#about #resume p {
-	margin: 0 3em 0 3em;
+.rightcolumn p {
+	font-family: 'Droid Sans';
 }
-
 nav {
 	width: 20%;
 	height: 25%;	
@@ -71,18 +74,6 @@ a:hover {
 	color: rgba(98, 88, 147, 1);
 }
 
-aside {
-	width: 17em;
-	height: 190em;
-	background-color: rgba(35, 66, 126, .9);
-	float: left;
-	text-align: center;
-	border-left: 8px solid rgba(253, 194, 170, 1)
-}
-aside h1 {
-	margin-top: 3em;
-}
-
 .projectscontain {
 	width: 50%;
 	float: left;
@@ -99,14 +90,15 @@ aside h1 {
 }
 #about{
 	padding: .8em;
-	margin-top: 1.25em;
+	margin-top: 3.25em;
 	margin-bottom: .95em;
 	margin-left: 3.9em;
+	font-size: 1em;
 }
 #resume{
 	padding: .8em;
 	margin-bottom: 1.95em;
-		margin-left: 3.5em;
+		margin-left: 3.9em;
 }
 
 #web {
