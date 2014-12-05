@@ -20,8 +20,8 @@ body {
 }
 
 header {
-	width: 100%;
-	padding:.1em;
+	width: 100em;
+	padding: 1em 0 1em 1em;
 	text-align: center;
 	background-color: rgba(55, 55, 55, .4);
 }
@@ -104,23 +104,42 @@ clear: both;
 height: 0;
 }
 
+@media only screen and (min-width: 961px) {
+body {
+	width: 100%;
+	font-size: 1em;
+}
+header {
+		width: 100%;
+		font-size: 130%;
+	}
+
+nav {
+	float: none;
+	width: auto;
+	margin: 13em 0 .0 30em;
+	}
+
+}
+
 @media only screen and (max-width: 960px) {
 body {
 	width: 80%;
 	font-size: 1em;
 }
+header {
+		width: 100%;
+		font-size: 100%;
+	}
+header h2 {
+		font-size: .9em;
+	}
 nav {
 	float: none;
 	width: auto;
 	margin: 13em 0 .0 35em;
 	}
-	header {
-		width: 100%;
-		font-size: 2.5em;
-	}
-	header h2 {
-		font-size: .9em;
-	}
+
 }
 
 @media only screen and (max-width: 959px) and (min-width: 451px) {
@@ -130,8 +149,15 @@ nav {
 	margin: 10em 0 .0 15em;
 	}
 	header {
-		width: 100%;
-		font-size: 1em;
+	width: 100%;
+	font-size: 1.15em;
+	margin: 0 0 0 1.95em;
+	padding: .7em .8em .3em 0;
+	text-decoration: left;
+	}
+	nav {
+	width: 50%;
+	margin: 2em 0 0 4em;
 	}
 }
 @media only screen and (max-width: 450px) {
@@ -147,15 +173,15 @@ body {
 }
 header {
 	width: 80%;
-	height: 20%;
-	margin: 0 0 0 .95em;
-	padding: 1em 0 0 0;
+	height: 50%;
+	margin: 0 0 0 1.95em;
+	padding: 1.7em .8em .3em 0;
 }
 header h1 {
-	font-size: 100%;
+	font-size: 200%;
 }
 header h2 {
-	font-size: 50%;
+	font-size: 100%;
 	}
 nav {
 	width: 50%;
