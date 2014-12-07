@@ -1,0 +1,297 @@
+html body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-size: 16px;
+}
+header {
+	padding:1em;
+}
+h1 {
+	font-family: 'Alfa Slab One';
+	font-size: 2.5em;
+	color: rgba(35, 66, 126, .9);
+}
+
+h1 a {
+	text-decoration: none;
+	color: rgba(255, 216, 187, 1);
+}
+h2 {
+	font-family: 'Alfa Slab One';
+	font-size: 1.75em;
+	color: rgba(98, 88, 147, .9);
+}
+aside {
+	position: fixed;  border-top: 8px solid #bb3388;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: auto;
+	width: 17em;
+	background-color: rgba(35, 66, 126, .9);
+	float: left;
+	text-align: center;
+	border-left: 8px solid rgba(253, 194, 170, 1);
+}
+aside h1 {
+	margin-top: 3em;
+}
+
+.rightcolumn {
+	width: 100%;
+	float: left;
+	display: block;
+	padding: .8em;
+	border-top: 8px solid #bb3388;
+}
+.rightcolumn h1 {
+	padding:0 0 2em 1em;
+}
+
+p {
+	color: rgba(98, 88, 147, .9);
+}
+.rightcolumn p {
+	font-family: 'Droid Sans';
+}
+nav {
+	width: 20%;
+	height: 25%;	
+	margin: 1.3em 0 1.3em 1.5em;
+	text-align: center;	
+}
+
+nav a {
+	display: block;
+	text-decoration: none;   
+	color: rgba(35, 66, 126, .9);
+	font-family: 'Alfa Slab One';
+	font-size: 1.8em;
+	padding: .3em;
+	width: 200px;
+
+}
+nav#fixalign{
+	margin-left: .4em;
+	text-align: center;
+}
+
+a:hover {
+	color: rgba(98, 88, 147, 1);
+}
+
+.projectscontain {
+	width: 50%;
+	float: right;
+	display: block;
+	padding: .7em;
+	margin-top: .3em;
+	margin-right: 8em;
+}
+.boxdisplay {
+	width: 55%;
+	float: right;
+	display: inline-block;
+	border: 2px solid #502930;
+	margin: 0 0 10px 50px;
+	border-radius: 30px;
+	padding: 10px;
+}
+#about{
+	padding: 1em;
+	margin: 3.25em 10.45em .95em 20.9em;
+	font-size: 1em;
+}
+#resume{
+	padding: .95em;
+	margin: 0 0 0 20.9em;
+}
+
+#web {
+	margin-bottom: 1.95em;
+}
+
+#analogue {
+	margin-bottom: 1.95em;
+}
+
+#misc {
+	margin-bottom: 1.95em;
+
+}
+
+#abuttonone {
+	border-radius: 1.1em;
+	background-color: rgba(141, 82, 63, .8);
+	float: left;
+	clear: both;
+	margin: 3px;
+}
+#abuttontwo {
+	border-radius: 1.1em;
+	background-color: rgba(182, 177, 200, .8);
+	float: left;
+	clear: both;
+	margin: 3px;
+}
+
+#abuttonthree {
+	border-radius: 1.1em;
+	background-color: rgba(255, 216, 187, .8);
+	float: left;
+	clear: both;
+	margin: 3px;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+
+@media only screen and (min-width: 800px) {
+
+}
+
+@media only screen and (min-width: 451px) and (max-width: 799px) {
+	h1 {
+	font-size: 3em;
+}
+
+aside {
+		position: absolute;
+
+	width:60em;
+	height: 20em;
+	border-left: none;
+
+}
+aside h1 {
+	margin: .5em 0 0 1.5em;
+	text-align: left; 
+	font-size: 4em;
+}
+nav {
+	display: block;
+
+}
+#abuttonone {
+	width: 95em;
+	border-radius: 1.1em;
+	background-color: rgba(141, 82, 63, .8);
+}
+#abuttontwo {
+	width: 75em;
+	border-radius: 1.1em;
+	background-color: rgba(182, 177, 200, .8);
+	margin-left: 5em;
+}
+
+#abuttonthree {
+	width: 55em;
+	border-radius: 1.1em;
+	background-color: rgba(255, 216, 187, .8);
+	margin-left: 10em;
+}
+.rightcolumn {
+	width: 100%;
+	float: none;
+	padding: .8em;
+	border-top: 8px solid #bb3388;
+	margin: 0 0 0 0;
+}
+.projectscontain {
+	margin-top: 20em;
+}
+#about{
+	padding: 1em;
+	margin: 20.25em 5.45em .95em 1.9em;
+	font-size: 1em;
+}
+#resume{
+	padding: 1em;
+	margin: 1.25em 5.45em .95em 1.9em;
+	font-size: 1em;
+}
+
+}
+@media only screen and (max-width: 450px) {
+
+h1 {
+	font-size: 3em;
+}
+
+aside {
+	position: absolute;
+	width:29em;
+	height: 20em;
+	border-left: none;
+	 overflow: auto;
+
+}
+aside h1 {
+	margin: .5em 0 0 .25em;
+	text-align: left; 
+	font-size: 4em;
+}
+nav {
+	display: block;
+
+}
+#abuttonone {
+	width: 35em;
+	border-radius: 1.1em;
+	background-color: rgba(141, 82, 63, .8);
+}
+#abuttontwo {
+	width: 25em;
+	border-radius: 1.1em;
+	background-color: rgba(182, 177, 200, .8);
+	margin-left: 5em;
+}
+
+#abuttonthree {
+	width: 20em;
+	border-radius: 1.1em;
+	background-color: rgba(255, 216, 187, .8);
+	margin-left: 10em;
+}
+.rightcolumn {
+	width: 120%;
+	margin: 10px 0 0 0;
+	clear: both;
+	padding: .8em;
+	border-top: 8px solid #bb3388;
+}
+.projectscontain {
+	margin-top: 17em;
+	margin-right: 14em
+}
+#about{
+	padding: 1em;
+	margin: 20.25em 5.45em .95em 1.9em;
+	font-size: 1em;
+}
+#resume{
+	padding: 1em;
+	margin: 1.25em 5.45em .95em 1.9em;
+	font-size: 1em;
+}
+.boxdisplay {
+	width: 55%;
+	float: left;
+	display: inline-block;
+	border: 2px solid #502930;
+	margin: 5em 0 10px 50px;
+	border-radius: 30px;
+	padding: 5em;
+}
+}
+
