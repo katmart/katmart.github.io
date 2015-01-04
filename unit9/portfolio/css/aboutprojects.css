@@ -54,10 +54,14 @@ aside h1 {
 
 p {
 	color: rgba(98, 88, 147, .9);
+
 }
 .rightcolumn p {
 	font-family: 'Droid Sans';
 }
+p>a {
+	text-decoration: none;
+color: rgba(141, 82, 63, .8);}
 nav {
 	width: 20%;
 	height: 25%;	

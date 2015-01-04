@@ -6,75 +6,56 @@ html {
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
-  	background-color: rgba(55, 55, 55, .4);
-
+  background-color: rgba(55, 55, 55, .4);
 }
-
 body {
 	font-size: 16px;
 	font-family: 'Alfa Slab One';
 	position: relative;
 }
-
-#container {
-	width: 100%;
-}
-
 header {
-	width: 100em;
 	padding: .5em 0 .5em 1em;
 	text-align: center;
 	background-color: rgba(55, 55, 55, .4);
 }
-
 header h1 {
 	font-family: 'Alfa Slab One';
 	color: rgba(255, 216, 187, .9);
-	font-size: 2em;
 	margin: .5em 0 .5em .5em;
 }
-
 header h2 {
-	font-family: 'Alfa Slab One';
+	font-family: 'Droid Sans';
 	font-size: 1em;
 	color: rgba(255, 216, 187, .9);
 	margin: .3em 0 .5em .95em;
-	font-family: 'Droid Sans';
+}
+nav {
+	margin: .3em 0 .5em .95em;
 
 }
-
+nav a {
+	font-family: 'Alfa Slab One';
+	display: block;
+	text-decoration: none;
+	color: rgba(98, 88, 147, .9);
+	font-size: 1.5em;
+	padding: .3em;
+	width: 6em;
+	text-align: center;
+}
+nav#fixalign{
+	margin-left: 50px;
+	text-align: center;
+}
 p {
 	font-family: 'Driod Sans';
 	font-size: 1em;
 	color: rgba(98, 88, 147, .9);
 }
-nav {
-	width: 100%;
-	height: 100%;	
-	text-align: center;	
-	margin: 15em 0 0 48em;
-}
-
-nav a {
-	display: block;
-	text-decoration: none;
-	color: rgba(98, 88, 147, .9);
-	font-family: 'Alfa Slab One';
-	font-size: 1.5em;
-	padding: .3em;
-	width: 6em;
-
-}
-nav#fixalign{
-	margin-left: 50px;
-text-align: center;
-}
 
 a:hover {
 	color: #492033;
 }
-
-
 #hbuttonone {
 	border-radius: 20px;
 	background-color: rgba(253, 194, 170, .8);
@@ -98,21 +79,13 @@ a:hover {
 	margin: 3px;
 }
 
-.clearfix:after {
-visibility: hidden;
-display: inline-block;
-font-size: 0;
-content: " ";
-clear: both;
-height: 0;
-}
 
 @media only screen and (min-width: 1681px) {
 
 #container {
     height: 200em;
 	width: 187em;
-	background-color: rgba(35, 66, 126, .5);
+	background-color: rgba(33, 33, 33, .5);
 		font-size: 1.1em;
 
 	}
@@ -160,6 +133,7 @@ header h2 {
 	}
 nav {
 	margin: 17em 0 0 4em;
+
 	}
 nav a {
 color: rgba(255, 216, 187, .9);
@@ -200,77 +174,65 @@ height: 0;
 	}
 }
 
-@media only screen and (min-width: 960px) and (max-width: 1274.9px) {
+@media only screen and (min-width: 660px) and (max-width: 1274.9px) {
 
-#container {
-    height: 300em;
-    overflow: none;
-	width: 13em;
-	background-color: rgba(35, 66, 126, .9);
-	float: left;
-	text-align: center;
-	font-size: 1.1em;
+body {
+	background-color: rgba(98, 88, 147, .9);
+	position: relative;
+	overflow: scroll;
+}
+header {
+	width: 100%;
 	}
-header h1
-	{
-	margin-right: 22em;
+header h1 {
+		font-size: 2em;
+		color: rgba(182, 177, 200, .8);
 	}
 header h2 {
-		font-size: .9em;
-			margin-right: 49em;
-
+		font-size: 1em;
+		color: rgba(182, 177, 200, .8);
+		letter-spacing: .3em;
 	}
 nav {
-	float: left;
-	width: auto;
-	margin: 3em 0 0 .75em;
+	width: 100%;
+	margin: 3em 0 0 21em;
 	padding: 9px;
 	}
 
 }
-
-@media only screen and (max-width: 959px) and (min-width: 451px) {
+@media only screen and (max-width: 659px) and (min-width: 451px) {
 
 header {
 	width: 100%;
 	font-size: 1.01em;
-	margin: 0 1.95em 0 1.95em;
+	margin: 0 1.95em 0 0;
 	padding: .7em 1.8em .3em 0;
 	text-decoration: left;
 	}
 header h1 {
 		font-size: 2em;
+		color: rgba(182, 177, 200, .8);
 	}
-
+header h2 {
+		font-size: 1em;
+		color: rgba(182, 177, 200, .8);
+		letter-spacing: .3em;
+	}
 nav {
 	margin: 2em 0 0 4.5em;
-	float: none;
-	width: auto;
-
 	}
 nav a {
-	color: rgba(255, 216, 187, .9);
-
+	color: rgba(35, 66, 126, .7);
 	}
+
 #hbuttonone {
-	border-radius: 10px;
-	clear: both;
-	background-color: rgba(98, 88, 147, .78);
-
-
+	background-color: (253, 194, 170, .8);
 	}
 #hbuttontwo {
-	border-radius: 10px;
-	clear: both;
-	background-color: rgba(98, 88, 147, .78);
-
-
+	background-color: rgba(182, 177, 200, .8);
 	}
 #hbuttonthree {
-	border-radius: 10px;
-	clear: both;
-	background-color: rgba(98, 88, 147, .78);
-
+	background-color: rgba(255, 216, 187, .9);
 	}
 }
 @media only screen and (max-width: 450px) {
@@ -289,30 +251,21 @@ header {
 	width: 80%;
 	height: 50%;
 	margin: 0 0 0 2.1em;
-	padding: 4.25em .8em .3em 0;
+	padding: 1em 1em .3em 0;
 }
 header h1 {
 	font-size: 200%;
+	background-color: rgba(35, 66, 126, .7);
+	padding: .5em;
+	color: rgba(253, 194, 170, .8);
 }
 header h2 {
 	font-size: 110%;
+	color: rgba(253, 194, 170, .8);
 	}
 nav {
 	width: 50%;
-	margin: 7em 0 0 7em;
-	}
-#hbuttonone {
-	border-radius: 10px;
-	clear: both;
-	}
-#hbuttontwo {
-	border-radius: 10px;
-	clear: both;
+	margin: 4em 0 0 7em;
 
 	}
-#hbuttonthree {
-	border-radius: 10px;
-	clear: both;
-	}
-
 }
