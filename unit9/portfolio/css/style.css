@@ -31,20 +31,17 @@ header h2 {
 }
 nav {
 	margin: .3em 0 .5em .95em;
+		display: inline-block;
 
 }
 nav a {
 	font-family: 'Alfa Slab One';
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 	color: rgba(98, 88, 147, .9);
 	font-size: 1.5em;
 	padding: .3em;
 	width: 6em;
-	text-align: center;
-}
-nav#fixalign{
-	margin-left: 50px;
 	text-align: center;
 }
 p {
@@ -86,7 +83,7 @@ a:hover {
     height: 200em;
 	width: 187em;
 	background-color: rgba(33, 33, 33, .5);
-		font-size: 1.1em;
+	font-size: 1.1em;
 
 	}
 header {
@@ -109,93 +106,68 @@ nav {
 nav a {
 color: rgba(98, 88, 147, .78);
 }
-
-
 }
-
 
 @media only screen and (min-width: 1275px) and (max-width: 1680px) {
-
-#container {
-    height: 200em;
-	width: 139em;
+body {
 	background-color: rgba(35, 66, 126, .5);
-	}
+}
 header {
-		width: 100em;
-		text-align: left;
-		font-size: 1.3em;
-		background-color: (45, 45, 45, .6);
-		height: 5.3em;
+	width: 100%;
+	text-align: center;
+	background-color: (45, 45, 45, .6);
+	height: 8em;
+	}
+header h1 {
+	font-size: 2.5em;
 	}
 header h2 {
-		font-size: 1.1em;
+	font-size: 1.1em;
 	}
 nav {
-	margin: 17em 0 0 4em;
-
+	margin: 7em 0 0 40em;
+	text-align: center;
+	height: 40em;
 	}
 nav a {
-color: rgba(255, 216, 187, .9);
-}
-.clearfix:after {
-visibility: hidden;
-display: inline-block;
-font-size: 0;
-content: " ";
-clear: both;
-height: 0;
+	padding: 1em;
+	color: rgba(255, 216, 187, .8);
 }
 #hbuttonone {
-	border-radius: 15px;
-	width: 10em;
-	height: 3em;
-	clear: both;
 	background-color: rgba(98, 88, 147, .78);
-	padding: .5em 0 0 0;
+	letter-spacing: .2em;
 	}
 #hbuttontwo {
-	border-radius: 15px;
-	width: 10em;
-	height: 3em;
-	clear: both;
 	background-color: rgba(98, 88, 147, .78);
-	padding: .5em 0 0 0;
-
-
+		letter-spacing: .2em;
 	}
 #hbuttonthree {
-	border-radius: 15px;
-	width: 10em;
-	height: 3em;
-	clear: both;
 	background-color: rgba(98, 88, 147, .78);
-	padding: .5em 0 0 0;
+	letter-spacing: .2em;
 	}
 }
 
-@media only screen and (min-width: 660px) and (max-width: 1274.9px) {
+@media only screen and (min-width: 660px) and (max-width: 1274.999px) {
 
 body {
-	background-color: rgba(98, 88, 147, .9);
-	position: relative;
-	overflow: scroll;
+	background-color: rgba(35, 66, 126, .7);
 }
 header {
 	width: 100%;
 	}
 header h1 {
-		font-size: 2em;
-		color: rgba(182, 177, 200, .8);
+	font-size: 2em;
+	color: rgba(182, 177, 200, .8);
 	}
 header h2 {
-		font-size: 1em;
-		color: rgba(182, 177, 200, .8);
-		letter-spacing: .3em;
+	font-size: 1em;
+	color: rgba(182, 177, 200, .8);
+	letter-spacing: .3em;
 	}
 nav {
 	width: 100%;
-	margin: 3em 0 0 21em;
+	height: 45em;
+	margin: 3em 0 0 27em;
 	padding: 9px;
 	}
 
