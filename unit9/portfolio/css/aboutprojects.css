@@ -6,7 +6,7 @@ html body {
 	width: 100%;
 }
 body {
-	font-size: 16px;
+	font-size: 1em;
 }
 header {
 	padding:1em;
@@ -16,7 +16,9 @@ h1 {
 	font-size: 2.5em;
 	color: rgba(35, 66, 126, .9);
 }
-
+a {
+	text-decoration: none;
+}
 h1 a {
 	text-decoration: none;
 	color: rgba(255, 216, 187, 1);
@@ -161,7 +163,7 @@ clear: both;
 height: 0;
 }
 
-@media only screen and (min-width: 551px) and (max-width: 650px) {
+@media only screen and (min-width: 550px) and (max-width: 650px) {
 
 }
 
@@ -169,13 +171,16 @@ height: 0;
 
 aside {
 	position: absolute;
-	width: 105%;
-	height: 19.5em;
+		-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	width: 108%;
+	height: 39%;
 	border-left: none;
 
 }
 aside h1 {
-	margin: .9em 0 0 2em;
+	margin: .9em 0 0 1em;
 	text-align: left; 
 	font-size: 3em;
 }
@@ -187,33 +192,36 @@ nav {
 	width: 15em;
 	border-radius: 1.1em;
 	background-color: rgba(141, 82, 63, .8);
-	margin-left: 7em;
+	margin-left: 4em;
 
 }
 #abuttontwo {
 	width: 15em;
 	border-radius: 1.1em;
 	background-color: rgba(182, 177, 200, .8);
-	margin-left: 7em;
+	margin-left: 4em;
 }
 #abuttonthree {
 	width: 15em;
 	border-radius: 1.1em;
 	background-color: rgba(255, 216, 187, .8);
-	margin-left: 7em;
+	margin-left: 4em;
 }
 .rightcolumn {
 	width: 100%;
 	float: left;
 	clear: both;
 	padding: .3em;
-	margin: 3em 4em 0 0;
+	margin: 20em 3em 0 0;
 }
 #web.projectscontain {
-	margin-top: 17em;
+	margin-top: 3em;
 }
 #analogue.projectscontain {
 	margin-top: -2em;
+}
+.boxdisplay {
+	width: 100%;
 }
 #about {
 	padding: 1em;
@@ -234,6 +242,9 @@ h1 {
 
 aside {
 	position: absolute;
+		-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 	width: 28em;
 	height: 20em;
 	border-left: none;
