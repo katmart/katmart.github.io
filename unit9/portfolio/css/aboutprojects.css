@@ -2,7 +2,9 @@ html body {
 	height: 100%;
 	width: 100%;
 }
-
+#container2 {
+	width: 100%;
+}
 body {
 	font-size: 16px;
 }
@@ -46,7 +48,6 @@ aside h1 {
 	float: left;
 	display: block;
 	padding: .8em;
-	border-top: 8px solid #bb3388;
 }
 .rightcolumn h1 {
 	padding:0 0 2em 1em;
@@ -160,61 +161,61 @@ clear: both;
 height: 0;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 551px) and (max-width: 650px) {
 
 }
 
-@media only screen and (min-width: 451px) and (max-width: 799px) {
-	h1 {
-	font-size: 3em;
-}
+@media only screen and (min-width: 401px) and (max-width: 550px) {
 
 aside {
-		position: absolute;
-
-	width:60em;
-	height: 20em;
+	position: absolute;
+	width: 105%;
+	height: 19.5em;
 	border-left: none;
 
 }
 aside h1 {
-	margin: .5em 0 0 1.5em;
+	margin: .9em 0 0 2em;
 	text-align: left; 
-	font-size: 4em;
+	font-size: 3em;
 }
 nav {
 	display: block;
 
 }
 #abuttonone {
-	width: 95em;
+	width: 15em;
 	border-radius: 1.1em;
 	background-color: rgba(141, 82, 63, .8);
+	margin-left: 7em;
+
 }
 #abuttontwo {
-	width: 75em;
+	width: 15em;
 	border-radius: 1.1em;
 	background-color: rgba(182, 177, 200, .8);
-	margin-left: 5em;
+	margin-left: 7em;
 }
-
 #abuttonthree {
-	width: 55em;
+	width: 15em;
 	border-radius: 1.1em;
 	background-color: rgba(255, 216, 187, .8);
-	margin-left: 10em;
+	margin-left: 7em;
 }
 .rightcolumn {
 	width: 100%;
-	float: none;
-	padding: .8em;
-	border-top: 8px solid #bb3388;
-	margin: 0 0 0 0;
+	float: left;
+	clear: both;
+	padding: .3em;
+	margin: 3em 4em 0 0;
 }
-.projectscontain {
-	margin-top: 20em;
+#web.projectscontain {
+	margin-top: 17em;
 }
-#about{
+#analogue.projectscontain {
+	margin-top: -2em;
+}
+#about {
 	padding: 1em;
 	margin: 20.25em 5.45em .95em 1.9em;
 	font-size: 1em;
@@ -224,19 +225,19 @@ nav {
 	margin: 1.25em 5.45em .95em 1.9em;
 	font-size: 1em;
 }
-
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 401px) {
 
 h1 {
 	font-size: 2em;
 }
 
 aside {
-	width: 29em;
+	position: absolute;
+	width: 28em;
 	height: 20em;
 	border-left: none;
-	 overflow: auto;
+	overflow: auto;
 
 }
 aside h1 {
@@ -274,15 +275,23 @@ nav a {
 	margin-left: 4em;
 }
 .rightcolumn {
-	width: 120%;
-	margin: .5em 0 0 0;
+	width: 100%;
+	margin: .5em 0 0 .5em;
 	clear: both;
-	padding: .2em;
-	border-top: 8px solid #bb3388;
+	padding: .1em;
 }
 .projectscontain {
+	margin-top: 3em;
+}
+#web.projectscontain {
 	margin-top: 17em;
-	margin-right: 14em
+	float: left;
+	margin-left: 2em;
+}
+#analogue.projectscontain {
+	float: left;
+	margin-left: 2em;
+	margin-top: -4em;
 }
 #about{
 	padding: 1em;
@@ -295,13 +304,12 @@ nav a {
 	font-size: 1em;
 }
 .boxdisplay {
-	width: 55%;
+	width: 100%;
 	float: left;
 	display: inline-block;
-	border: 2px solid #502930;
-	margin: 5em 0 10px 50px;
-	border-radius: 30px;
-	padding: 5em;
+	margin: 4em 0 5px 14.5px;
+	border-radius: 20px;
+	padding: 1em;
 }
 }
 
