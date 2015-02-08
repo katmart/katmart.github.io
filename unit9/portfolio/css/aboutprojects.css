@@ -229,12 +229,11 @@ nav {
 @media only screen and (max-width: 450px) {
 
 h1 {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 aside {
-	position: absolute;
-	width:29em;
+	width: 29em;
 	height: 20em;
 	border-left: none;
 	 overflow: auto;
@@ -243,35 +242,42 @@ aside {
 aside h1 {
 	margin: .5em 0 0 .25em;
 	text-align: left; 
-	font-size: 4em;
+	font-size: 3em;
+	margin-left: .8em;
+
 }
 nav {
 	display: block;
-
+}
+nav a {
+	font-size: 2em;
+	width: 5.5em;
 }
 #abuttonone {
-	width: 35em;
+	width: 12em;
 	border-radius: 1.1em;
 	background-color: rgba(141, 82, 63, .8);
+	margin-left: 4em;
+
 }
 #abuttontwo {
-	width: 25em;
+	width: 12em;
 	border-radius: 1.1em;
 	background-color: rgba(182, 177, 200, .8);
-	margin-left: 5em;
+	margin-left: 4em;
 }
 
 #abuttonthree {
-	width: 20em;
+	width: 12em;
 	border-radius: 1.1em;
 	background-color: rgba(255, 216, 187, .8);
-	margin-left: 10em;
+	margin-left: 4em;
 }
 .rightcolumn {
 	width: 120%;
-	margin: 10px 0 0 0;
+	margin: .5em 0 0 0;
 	clear: both;
-	padding: .8em;
+	padding: .2em;
 	border-top: 8px solid #bb3388;
 }
 .projectscontain {
