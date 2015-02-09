@@ -8,6 +8,10 @@ html {
   overflow: hidden;
   background-color: rgba(55, 55, 55, .4);
 }
+#container {
+    height: 200em;
+	width: 187em;
+}
 body {
 	font-size: 16px;
 	font-family: 'Alfa Slab One';
@@ -15,7 +19,7 @@ body {
 }
 header {
 	padding: .5em 0 .5em 1em;
-	text-align: center;
+	text-align: left;
 	background-color: rgba(55, 55, 55, .4);
 }
 header h1 {
@@ -30,9 +34,8 @@ header h2 {
 	margin: .3em 0 .5em .95em;
 }
 nav {
-	margin: .3em 0 .5em .95em;
-		display: inline-block;
-
+	margin: 2em 0 .5em 1.95em;
+	display: inline-block;
 }
 nav a {
 	font-family: 'Alfa Slab One';
@@ -45,9 +48,10 @@ nav a {
 	text-align: center;
 }
 p {
-	font-family: 'Driod Sans';
-	font-size: 1em;
-	color: rgba(98, 88, 147, .9);
+	font-family: 'Droid Sans';
+	font-size: 1.3em;
+	color: rgba(253, 194, 170, .9);
+	display: inline;
 }
 
 a:hover {
@@ -75,17 +79,12 @@ a:hover {
 	clear: both;
 	margin: 3px;
 }
-
-
 @media only screen and (min-width: 1681px) {
 
 #container {
-    height: 200em;
-	width: 187em;
 	background-color: rgba(33, 33, 33, .5);
-	font-size: 1.1em;
-
 	}
+
 header {
 		font-size: 1.5em;
 		background-color: (45, 45, 45, .6);
@@ -100,9 +99,6 @@ header h2 {
 		font-size: 1.1em;
 		margin-right: 37.75em;
 	}
-nav {
-	margin: 15em 0 0 4em;
-	}
 nav a {
 color: rgba(98, 88, 147, .78);
 }
@@ -114,7 +110,6 @@ body {
 }
 header {
 	width: 100%;
-	text-align: center;
 	background-color: (45, 45, 45, .6);
 	height: 8em;
 	}
@@ -125,12 +120,11 @@ header h2 {
 	font-size: 1.1em;
 	}
 nav {
-	margin: 7em 0 0 40em;
-	text-align: center;
-	height: 40em;
+	margin: 1em 0 0 2em;
+	height: 20em;
 	}
 nav a {
-	padding: 1em;
+	padding: .5em;
 	color: rgba(255, 216, 187, .8);
 }
 #hbuttonone {
@@ -149,7 +143,7 @@ nav a {
 
 @media only screen and (min-width: 660px) and (max-width: 1274.999px) {
 
-body {
+#container {
 	background-color: rgba(35, 66, 126, .7);
 }
 header {
@@ -166,11 +160,10 @@ header h2 {
 	}
 nav {
 	width: 100%;
-	height: 45em;
-	margin: 3em 0 0 27em;
+	height: 4em;
+	margin: 3em 0 0 2em;
 	padding: 9px;
 	}
-
 }
 @media only screen and (max-width: 659px) and (min-width: 451px) {
 
@@ -209,27 +202,32 @@ nav a {
 }
 @media only screen and (max-width: 450px) {
 html {
-	  background: url("../assets/images/backcovermobile.jpg") no-repeat center center fixed; 
+	background: url("../assets/images/backcovermobile.jpg") no-repeat center center fixed; 
 	height: 100%;
 }
 body {
 	width: 100%;
 	height: 100%;
-	background-color: rgba(98, 88, 147, .9);
-	position: relative;
+	background-color: rgba(98, 88, 147, .8);
 	overflow: scroll;
+}
+#container {
+	height: 50%;
+	width: 93%;
 }
 header {
 	width: 80%;
-	height: 50%;
+	height: 40%;
 	margin: 0 0 0 2.1em;
 	padding: 1em 1em .3em 0;
+	text-align: center;
 }
 header h1 {
 	font-size: 200%;
 	background-color: rgba(35, 66, 126, .7);
 	padding: .5em;
 	color: rgba(253, 194, 170, .8);
+	text-align: center;
 }
 header h2 {
 	font-size: 110%;
@@ -237,7 +235,6 @@ header h2 {
 	}
 nav {
 	width: 50%;
-	margin: 4em 0 0 7em;
-
+	margin: 3.8em 0 0 6.3em;
 	}
 }
