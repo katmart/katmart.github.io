@@ -64,6 +64,9 @@ p>a {
 	text-decoration: none;
 color: rgba(141, 82, 63, .8);
 }
+h2>a {
+color: rgba(141, 82, 63, .8);
+}
 nav {
 	width: 20%;
 	height: 25%;	
@@ -147,8 +150,12 @@ a:hover {
 	clear: both;
 	margin: 3px;
 }
-footer {
+footer>p {
 	font-family: 'Droid Sans';
+	display: inline;
+}
+.socialmedia {
+	display: inline;
 }
 
 .clearfix:after {
@@ -386,6 +393,9 @@ nav a {
 	margin: 4em 0 5px 14.5px;
 	border-radius: 20px;
 	padding: 1em;
+}
+p {
+	font-size: 93%;
 }
 }
 

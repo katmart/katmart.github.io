@@ -165,7 +165,7 @@ nav {
 	padding: 9px;
 	}
 }
-@media only screen and (max-width: 659px) and (min-width: 451px) {
+@media only screen and (max-width: 450px) and (max-width: 660px) {
 
 header {
 	width: 100%;
@@ -200,7 +200,7 @@ nav a {
 	background-color: rgba(255, 216, 187, .9);
 	}
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (min-width: 295px) and (max-width: 450px) {
 html {
 	background: url("../assets/images/backcovermobile.jpg") no-repeat center center fixed; 
 	height: 100%;
@@ -223,18 +223,22 @@ header {
 	text-align: center;
 }
 header h1 {
-	font-size: 200%;
+	font-size: 170%;
 	background-color: rgba(35, 66, 126, .7);
 	padding: .5em;
 	color: rgba(253, 194, 170, .8);
 	text-align: center;
 }
 header h2 {
-	font-size: 110%;
+	font-size: 95%;
 	color: rgba(253, 194, 170, .8);
+	letter-spacing: 0em;
 	}
 nav {
 	width: 50%;
 	margin: 3.8em 0 0 6.3em;
 	}
+p {
+	font-size: 80%;
+}
 }
