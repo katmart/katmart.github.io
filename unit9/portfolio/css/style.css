@@ -71,13 +71,15 @@ a:hover {
 	clear: both;
 	margin: 3px;
 }
-
 #hbuttonthree {
 	border-radius: 20px;
 	background-color: rgba(253, 194, 170, .8);
 	float: left;
 	clear: both;
 	margin: 3px;
+}
+footer {
+	width: 18em;
 }
 @media only screen and (min-width: 1681px) {
 
@@ -139,9 +141,18 @@ nav a {
 	background-color: rgba(98, 88, 147, .78);
 	letter-spacing: .2em;
 	}
+footer {
+	width: 19em;
+	margin: 2em 0 0 3.2em;
+	background-color: rgba(30, 30, 30, .5);
+	padding: .5em;
+	border-radius: 1em;
 }
-
-@media only screen and (min-width: 660px) and (max-width: 1274.999px) {
+footer>p {
+	margin-left: .7em;
+}
+}
+@media only screen and (min-width: 875px) and (max-width: 1274.999px) {
 
 #container {
 	background-color: rgba(35, 66, 126, .7);
@@ -150,11 +161,11 @@ header {
 	width: 100%;
 	}
 header h1 {
-	font-size: 2em;
+	font-size: 3em;
 	color: rgba(182, 177, 200, .8);
 	}
 header h2 {
-	font-size: 1em;
+	font-size: 150%;
 	color: rgba(182, 177, 200, .8);
 	letter-spacing: .3em;
 	}
@@ -164,27 +175,37 @@ nav {
 	margin: 3em 0 0 2em;
 	padding: 9px;
 	}
+footer {
+	width: 19em;
+	margin: 2em 0 0 3.2em;
+	background-color: rgba(30, 30, 30, .5);
+	padding: .5em;
+	border-radius: 1em;
 }
-@media only screen and (max-width: 450px) and (max-width: 660px) {
-
+footer>p {
+	margin-left: .7em;
+}
+}
+@media only screen and (min-width: 485px) and (max-width: 875px) {
 header {
 	width: 100%;
-	font-size: 1.01em;
+	font-size: 100%;
 	margin: 0 1.95em 0 0;
 	padding: .7em 1.8em .3em 0;
-	text-decoration: left;
 	}
 header h1 {
-		font-size: 2em;
+		font-size: 210%;
 		color: rgba(182, 177, 200, .8);
+		margin-left: 1em;
 	}
 header h2 {
-		font-size: 1em;
+		font-size: 120%;
 		color: rgba(182, 177, 200, .8);
-		letter-spacing: .3em;
+		letter-spacing: .05em;
+		margin-left: 3.2em;
 	}
 nav {
-	margin: 2em 0 0 4.5em;
+	margin: 2em 0 0 3.2em;
 	}
 nav a {
 	color: rgba(35, 66, 126, .7);
@@ -199,8 +220,18 @@ nav a {
 #hbuttonthree {
 	background-color: rgba(255, 216, 187, .9);
 	}
+footer {
+	width: 19em;
+	margin: 2em 0 0 3.2em;
+	background-color: rgba(30, 30, 30, .5);
+	padding: .5em;
+	border-radius: 1em;
 }
-@media only screen and (min-width: 295px) and (max-width: 450px) {
+footer>p {
+	margin-left: .7em;
+}
+}
+@media only screen and (min-width: 380px) and (max-width: 485px) {
 html {
 	background: url("../assets/images/backcovermobile.jpg") no-repeat center center fixed; 
 	height: 100%;
@@ -221,24 +252,82 @@ header {
 	margin: 0 0 0 2.1em;
 	padding: 1em 1em .3em 0;
 	text-align: center;
+	border-radius: 1em;
 }
 header h1 {
-	font-size: 170%;
+	font-size: 155%;
 	background-color: rgba(35, 66, 126, .7);
 	padding: .5em;
 	color: rgba(253, 194, 170, .8);
 	text-align: center;
+	margin-top: 1.25em;
 }
 header h2 {
-	font-size: 95%;
+	font-size: 80%;
 	color: rgba(253, 194, 170, .8);
 	letter-spacing: 0em;
 	}
 nav {
 	width: 50%;
-	margin: 3.8em 0 0 6.3em;
+	margin: 3.5em 0 0 4.85em;
 	}
-p {
+footer {
+	margin: 4em 0 0 .7em;
+	background-color: rgba(35, 66, 126, .7);
+	padding: .5em;
+	border-radius: 1em;
+}
+footer>p {
+	margin-left: .52em;
+}
+}
+@media only screen and (min-width: 295px) and (max-width: 380px) {
+html {
+	background: url("../assets/images/backcovermobile.jpg") no-repeat center center fixed; 
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(98, 88, 147, .8);
+	overflow: scroll;
+}
+#container {
+	height: 50%;
+	width: 93%;
+}
+header {
+	width: 80%;
+	height: 40%;
+	margin: 0 0 0 2.1em;
+	padding: 1em 1em .3em 0;
+	text-align: center;
+	border-radius: 1em;
+}
+header h1 {
+	font-size: 155%;
+	background-color: rgba(35, 66, 126, .7);
+	padding: .5em;
+	color: rgba(253, 194, 170, .8);
+	text-align: center;
+	margin-top: 1.25em;
+}
+header h2 {
 	font-size: 80%;
+	color: rgba(253, 194, 170, .8);
+	letter-spacing: 0em;
+	}
+nav {
+	width: 50%;
+	margin: 3.5em 0 0 4.85em;
+	}
+footer {
+	margin: 4em 0 0 .7em;
+	background-color: rgba(35, 66, 126, .7);
+	padding: .5em;
+	border-radius: 1em;
+}
+footer>p {
+	margin-left: .52em;
 }
 }
