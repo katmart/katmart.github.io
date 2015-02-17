@@ -45,9 +45,8 @@ aside h1 {
 	margin-top: 3em;
 }
 .rightcolumn {
-width: 100%;
+	width: 100%;
 	float: left;
-	clear: both;
 	padding: .3em;
 	margin: 4em 0 0 0;
 }
@@ -102,14 +101,14 @@ a:hover {
 	margin: 0 2em 2em 17.3em;
 }
 .boxdisplay {
-	width: 15em;
+		width: 90%;
 	float: left;
 	display: inline-block;
 	border: 2px solid #502930;
 	border-radius: 30px;
 	padding: 10px;
 	margin-bottom: 2em;
-	margin-right: 2em
+	margin-right: 2em;
 }
 #about{
 	padding: 1em;
@@ -117,7 +116,6 @@ a:hover {
 	font-size: 1em;
 }
 #resume{
-	padding: .95em;
 	margin: 0 0 0 20.9em;
 }
 #web {
@@ -131,7 +129,9 @@ a:hover {
 #misc {
 	margin-bottom: 1.95em;
 }
-
+img {
+	margin-bottom: 1.5em;
+}
 #abuttonone {
 	border-radius: 1.1em;
 	background-color: rgba(141, 82, 63, .8);
@@ -182,34 +182,33 @@ aside {
 	clear: both;
 	height: 39%;
 	border-left: none;
-
 }
 aside h1 {
-	margin: 2% 0 0 2%;
-	font-size: 4em;
+	margin-top: 1em;
+	font-size: 2em;
 }
 nav {
-	width: 210%;
+	width: 100%;
 	position: relative;
-	clear: both;
 	display: block;
 	text-align: center;
-	margin: 2%;
-
+}
+nav a {
+	color: rgba(182, 177, 200, .8);
 }
 #abuttonone {
-	border-radius: 1.1em;
+	width: 13em;
 	text-align: center; 
 	background-color: rgba(141, 82, 63, .8);
-	margin-top: .5%;
-	margin-left: 12%;
+	margin-top: .2em;
+	margin-left: 2em;
 }
 #abuttontwo {
-	border-radius: 1.1em;
+	width: 13em;
 	text-align: center; 
 	background-color: rgba(182, 177, 200, .8);
-		margin-top: .5%;
-margin-left: 12%;
+	margin-top: .2em;
+	margin-left: 2em;
 }
 .rightcolumn {
 	width: 100%;
@@ -221,11 +220,13 @@ margin-left: 12%;
 #web.projectscontain {
 	width: 80%;
 	margin-top: 1em;
-	margin-left: 3em;
+	margin-left: 1em;
 }
 #analogue.projectscontain {
+		width: 80%;
+
 	margin-top: 1em;
-	margin-left: 2em;
+	margin-left: 1em;
 }
 .boxdisplay {
 	width: 90%;
@@ -242,6 +243,7 @@ margin-left: 12%;
 	margin: 1.25em 5.45em .95em 1.9em;
 	font-size: 1em;
 }
+
 footer {
 	width: 65%;
 	margin: 0 0 2em 4.9em;
@@ -263,7 +265,7 @@ aside {
 	-moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-	width: 28em;
+	width: 108%;
 	height: 16em;
 	border-left: none;
 	overflow: auto;
@@ -271,34 +273,37 @@ aside {
 aside h1 {
 	margin: .5em 0 0 .25em;
 	text-align: left; 
-	font-size: 3em;
+	font-size: 1.5em;
 	margin-left: .8em;
 }
 nav {
+	position: relative;
 	display: block;
+	text-align: center;
 }
 nav a {
-	font-size: 2em;
-	width: 5.5em;
+	color: rgba(253, 194, 170, .8);
 }
+a:hover{
+	color: rgba(182, 177, 200, .8);
+
+}
+
 #abuttonone {
-	width: 12em;
+	width: 3.2em;
+	font-size: .75em;
 	border-radius: 1.1em;
 	background-color: rgba(141, 82, 63, .8);
-	margin-left: 4em;
+	margin-left: 3.75em;
 }
 #abuttontwo {
-	width: 12em;
+	width: 3.2em;
+	font-size: .75em;
 	border-radius: 1.1em;
-	background-color: rgba(182, 177, 200, .8);
-	margin-left: 4em;
+	background-color: rgba(141, 82, 63, .8);
+	margin-left: 3.75em;
 }
-#abuttonthree {
-	width: 12em;
-	border-radius: 1.1em;
-	background-color: rgba(255, 216, 187, .8);
-	margin-left: 4em;
-}
+
 .rightcolumn {
 	width: 100%;
 	margin: .5em 0 0 .5em;
@@ -324,8 +329,8 @@ nav a {
 	font-size: 1em;
 }
 #resume{
-	padding: 1em;
-	margin: 1.25em 5.45em .95em 1.9em;
+	padding: 0;
+	margin: 1em 5.45em 1em 0;
 	font-size: 1em;
 }
 .boxdisplay {
@@ -338,16 +343,16 @@ nav a {
 }
 p {
 	font-size: 93%;
+
 }
 footer {
-	width: 19em;
-	margin: 2em 0 0 3.2em;
-	background-color: rgba(30, 30, 30, .5);
-	padding: .5em;
+	width: 13em;
+	margin: 4em 0 0 0;
+	padding: .05em;
 	border-radius: 1em;
 }
 footer>p {
-	margin-left: .7em;
+	margin-top: 1em;
 }
 }
 
