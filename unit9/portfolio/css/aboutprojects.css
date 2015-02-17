@@ -13,16 +13,13 @@ header {
 }
 h1 {
 	font-family: 'Alfa Slab One';
-	font-size: 2.5em;
+	font-size: 1.35em;
 	color: rgba(35, 66, 126, .9);
 }
 a {
 	text-decoration: none;
 }
-h1 a {
-	text-decoration: none;
-	color: rgba(255, 216, 187, 1);
-}
+
 h2 {
 	font-family: 'Alfa Slab One';
 	font-size: 1.75em;
@@ -42,7 +39,7 @@ aside {
 	border-left: 8px solid rgba(253, 194, 170, 1);
 }
 aside h1 {
-	margin-top: 3em;
+	margin-top: 5em;
 }
 .rightcolumn {
 	width: 100%;
@@ -81,6 +78,11 @@ nav a {
 	padding: .3em;
 	width: 200px;
 }
+h1 a {
+	text-decoration: none;
+	color: rgba(255, 216, 187, 1);
+	font-size: 1.75em;
+}
 nav#fixalign{
 	margin-left: .4em;
 	text-align: center;
@@ -111,8 +113,8 @@ a:hover {
 	margin-right: 2em;
 }
 #about{
-	padding: 1em;
-	margin: 3.25em 10.45em .95em 20.9em;
+	padding: .2em;
+	margin: 3.25em 4.45em 0 20.9em;
 	font-size: 1em;
 }
 #resume{
@@ -131,6 +133,7 @@ a:hover {
 }
 img {
 	margin-bottom: 1.5em;
+	border-radius: 1em;
 }
 #abuttonone {
 	border-radius: 1.1em;
