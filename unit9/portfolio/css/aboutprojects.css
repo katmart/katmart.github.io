@@ -103,10 +103,9 @@ a:hover {
 	margin: 0 2em 2em 17.3em;
 }
 .boxdisplay {
-		width: 90%;
+	width: 90%;
 	float: left;
 	display: inline-block;
-	border: 2px solid #502930;
 	border-radius: 30px;
 	padding: 10px;
 	margin-bottom: 2em;
@@ -118,7 +117,7 @@ a:hover {
 	font-size: 1em;
 }
 #resume{
-	margin: 0 0 0 20.9em;
+	margin: 1em 0;
 }
 #web {
 	margin-bottom: 1.95em;
@@ -135,14 +134,14 @@ img {
 	margin-bottom: 1.5em;
 	border-radius: 1em;
 }
-#abuttonone {
+.abuttonone {
 	border-radius: 1.1em;
 	background-color: rgba(141, 82, 63, .8);
 	float: left;
 	clear: both;
 	margin: 3px;
 }
-#abuttontwo {
+.abuttontwo {
 	border-radius: 1.1em;
 	background-color: rgba(182, 177, 200, .8);
 	float: left;
@@ -150,13 +149,6 @@ img {
 	margin: 3px;
 }
 
-#abuttonthree {
-	border-radius: 1.1em;
-	background-color: rgba(255, 216, 187, .8);
-	float: left;
-	clear: both;
-	margin: 3px;
-}
 footer>p {
 	font-family: 'Droid Sans';
 	display: inline;
@@ -174,7 +166,7 @@ clear: both;
 height: 0;
 }
 
-@media only screen and (min-width: 401px) and (max-width: 680px) {
+@media only screen and (min-width: 450px) and (max-width: 700px) {
 
 aside {
 	position: relative;
@@ -187,38 +179,42 @@ aside {
 	border-left: none;
 }
 aside h1 {
-	margin-top: 1em;
+	margin: 1em 0 0 1em;
 	font-size: 2em;
+	text-align: left;
+}
+h1 a {
+	color: rgba(253, 194, 170, 1);
+
 }
 nav {
 	width: 100%;
-	position: relative;
 	display: block;
 	text-align: center;
 }
-nav a {
-	color: rgba(182, 177, 200, .8);
+a:hover{
+	color: rgba(253, 194, 170, 1);
 }
-#abuttonone {
+.abuttonone {
 	width: 13em;
 	text-align: center; 
 	background-color: rgba(141, 82, 63, .8);
 	margin-top: .2em;
-	margin-left: 2em;
+	margin-left: 3.8em;
 }
-#abuttontwo {
+.abuttontwo {
 	width: 13em;
 	text-align: center; 
 	background-color: rgba(182, 177, 200, .8);
 	margin-top: .2em;
-	margin-left: 2em;
+	margin-left: 3.8em;
 }
 .rightcolumn {
 	width: 100%;
 	position: relative;
 	clear: both;
 	padding: .3em;
-	margin: 3em 1em 0 0;
+	margin: .3em 1em 0 0;
 }
 #web.projectscontain {
 	width: 80%;
@@ -226,8 +222,7 @@ nav a {
 	margin-left: 1em;
 }
 #analogue.projectscontain {
-		width: 80%;
-
+	width: 80%;
 	margin-top: 1em;
 	margin-left: 1em;
 }
@@ -242,23 +237,20 @@ nav a {
 	font-size: 1em;
 }
 #resume{
-	padding: 1em;
-	margin: 1.25em 5.45em .95em 1.9em;
+	margin: 1em 0;
 	font-size: 1em;
 }
-
 footer {
-	width: 65%;
-	margin: 0 0 2em 4.9em;
-	background-color: rgba(30, 30, 30, .5);
-	padding: .5em;
-	border-radius: 1em;
+	width: 60%;
+	margin: 0 0 0 5em;
+	border-radius: 1em; 
+	text-align: left;
 }
-footer>p {
-	margin-left: .7em;
+footer#moveleft {
+	margin: 0;
 }
 }
-@media only screen and (max-width: 401px) {
+@media only screen and (max-width: 450px) {
 
 h1 {
 	font-size: 2em;
@@ -269,66 +261,69 @@ aside {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 	width: 108%;
-	height: 16em;
+	height: 18em;
 	border-left: none;
 	overflow: auto;
 }
 aside h1 {
-	margin: .5em 0 0 .25em;
+	margin: 1em 0 0 1em;
 	text-align: left; 
 	font-size: 1.5em;
-	margin-left: .8em;
+}
+aside#firstaboutpage {
+	height: 13em;
+}
+header{
+	padding: 0;
 }
 nav {
 	position: relative;
 	display: block;
-	text-align: center;
 }
 nav a {
-	color: rgba(253, 194, 170, .8);
+	text-align: left;
+}
+h1 a {
+	color: rgba(253, 194, 170, 1);
 }
 a:hover{
-	color: rgba(182, 177, 200, .8);
-
+	color: rgba(253, 194, 170, 1);
 }
-
-#abuttonone {
-	width: 3.2em;
-	font-size: .75em;
-	border-radius: 1.1em;
-	background-color: rgba(141, 82, 63, .8);
-	margin-left: 3.75em;
+.abuttonone {
+	width: 9em;
+	background-color: rgba(141, 82, 63, 1);
+	font-size: .8em;
+	margin-top: .1em;
+	margin: 0 0 0 2.5em;
+	padding: 0 .5em;
 }
-#abuttontwo {
-	width: 3.2em;
-	font-size: .75em;
-	border-radius: 1.1em;
-	background-color: rgba(141, 82, 63, .8);
-	margin-left: 3.75em;
+.abuttontwo {
+	width: 9em;s
+	background-color: rgba(141, 82, 63, 1);
+	font-size: .8em;
+	margin-top: .2em;
+	margin: 1em 0 1em 2.5em;
+	padding: 0 .5em;
 }
-
 .rightcolumn {
 	width: 100%;
 	margin: .5em 0 0 .5em;
 	clear: both;
 	padding: .1em;
 }
-.projectscontain {
-	margin-top: 3em;
-}
 #web.projectscontain {
-	margin-top: 17em;
 	float: left;
-	margin-left: 2em;
+	margin-top: 16em;
+	margin-left: 1em;
 }
 #analogue.projectscontain {
 	float: left;
-	margin-left: 2em;
-	margin-top: -4em;
+	margin-left: 1em;
+	margin-top: 2em;
 }
 #about{
 	padding: .1em;
-	margin: 17.25em 1.45em .95em 1.9em;
+	margin: 16.25em 1.45em .95em 1.9em;
 	font-size: 1em;
 }
 #resume{
@@ -340,22 +335,22 @@ a:hover{
 	width: 15em;
 	float: left;
 	display: inline-block;
-	margin: 4em 0 5px 14.5px;
+	margin: 4em 0 5px .5px;
 	border-radius: 20px;
 	padding: 1em;
 }
 p {
 	font-size: 93%;
-
 }
 footer {
-	width: 13em;
-	margin: 4em 0 0 0;
+	position: relative;
+	width: 15em;
+	margin: 1em 0 0 2em;
 	padding: .05em;
 	border-radius: 1em;
 }
-footer>p {
-	margin-top: 1em;
+footer#moveleft {
+	margin-left: 0;
 }
 }
 
