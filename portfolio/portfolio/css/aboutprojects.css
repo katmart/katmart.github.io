@@ -46,6 +46,7 @@ aside h1 {
 	float: left;
 	padding: .3em;
 	margin: 4em 0 0 0;
+	
 }
 .rightcolumn h1 {
 	padding:0 0 2em 1em;
@@ -55,6 +56,7 @@ p {
 }
 .rightcolumn p {
 	font-family: 'Droid Sans';
+line-height: 1.35em;
 }
 p>a {
 	text-decoration: none;
@@ -102,19 +104,11 @@ a:hover {
 	padding: .7em;
 	margin: 0 2em 2em 17.3em;
 }
-.boxdisplay {
-	width: 90%;
-	float: left;
-	display: inline-block;
-	border-radius: 30px;
-	padding: 10px;
-	margin-bottom: 2em;
-	margin-right: 2em;
-}
 #about{
 	padding: .2em;
 	margin: 3.25em 4.45em 0 20.9em;
 	font-size: 1em;
+	line-height: 1.4em;
 }
 #resume{
 	margin: 1em 0;
@@ -226,11 +220,7 @@ a:hover{
 	margin-top: 1em;
 	margin-left: 1em;
 }
-.boxdisplay {
-	width: 90%;
-	height: 20%;
-	margin-left: 4%;
-}
+
 #about {
 	padding: 1em;
 	margin: 2.25em 5.45em .95em 1.9em;
@@ -331,14 +321,7 @@ a:hover{
 	margin: 1em 5.45em 1em 0;
 	font-size: 1em;
 }
-.boxdisplay {
-	width: 15em;
-	float: left;
-	display: inline-block;
-	margin: 4em 0 5px .5px;
-	border-radius: 20px;
-	padding: 1em;
-}
+
 p {
 	font-size: 93%;
 }
