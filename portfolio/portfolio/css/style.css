@@ -81,10 +81,9 @@ footer {
 
 header {
 		font-size: 1.5em;
-		background-color: (45, 45, 45, .6);
+		background-color: rgba(45, 45, 45, .6);
 		height: 5.3em;
 	}
-
 header h1 {
 		font-size: 1.7em;
 		margin-right: 24em;
@@ -104,7 +103,7 @@ body {
 }
 header {
 	width: 100%;
-	background-color: (45, 45, 45, .6);
+	background-color: rgba(45, 45, 45, .6);
 	height: 8em;
 	}
 header h2 {
@@ -142,11 +141,7 @@ footer>p {
 	margin-left: .7em;
 }
 }
-@media only screen and (min-width: 875px) and (max-width: 1274.999px) {
-
-#container {
-	background-color: rgba(35, 66, 126, .7);
-}
+@media only screen and (min-width: 475px) and (max-width: 1274.999px) {
 header {
 	width: 100%;
 	}
@@ -176,12 +171,17 @@ footer>p {
 	margin-left: .7em;
 }
 }
-@media only screen and (min-width: 455px) and (max-width: 875px) {
+@media only screen and (min-width: 412px) and (max-width: 875px) {
+#container {
+	height: 50%;
+	width: 50%;
+}
 header {
-	width: 100%;
+	width: 120%;
 	font-size: 100%;
 	margin: 0 1.95em 0 0;
 	padding: .7em 1.8em .3em 0;
+	border-radius: 2em;
 	}
 header h1 {
 		font-size: 210%;
@@ -195,21 +195,21 @@ header h2 {
 		margin-left: 2em;
 	}
 nav {
-	margin: 2em 0 0 3.2em;
+	margin: 2em 0 0 2em;
 	}
 nav a {
 	color: rgba(35, 66, 126, .7);
 	}
 
 .hbuttonone {
-	background-color: (253, 194, 170, .8);
+	background-color: rgba(253, 194, 170, .8);
 	}
 .hbuttontwo {
 	background-color: rgba(182, 177, 200, .8);
 	}
 footer {
 	width: 19em;
-	margin: 2em 0 0 3.2em;
+	margin: 2em 0 0 2em;
 	background-color: rgba(30, 30, 30, .5);
 	padding: .5em;
 	border-radius: 1em;
@@ -218,7 +218,7 @@ footer>p {
 	margin-left: .7em;
 }
 }
-@media only screen and (min-width: 380px) and (max-width: 455px) {
+@media only screen and (min-width: 295px) and (max-width: 412px) {
 html {
 	background: url("../assets/images/backcovermobile.jpg") no-repeat center center fixed; 
 	height: 100%;
@@ -234,70 +234,19 @@ body {
 	width: 93%;
 }
 header {
-	width: 80%;
+	width: 85%;
 	height: 40%;
-	margin: 0 0 0 2.1em;
-	padding: 1em 1em .3em 0;
+	margin: 0 1em 0 2.1em;
+	padding: 1em 0 .3em 0;
 	text-align: center;
 	border-radius: 1em;
 }
 header h1 {
 	font-size: 155%;
-	background-color: rgba(35, 66, 126, .7);
 	padding: .5em;
 	color: rgba(253, 194, 170, .8);
 	text-align: center;
-	margin-top: 1.25em;
-}
-header h2 {
-	font-size: 80%;
-	color: rgba(253, 194, 170, .8);
-	letter-spacing: 0em;
-	}
-nav {
-	width: 50%;
-	margin: 3.5em 0 0 6.85em;
-	}
-footer {
-	margin: 4em 0 0 3.3em;
-	background-color: rgba(35, 66, 126, .7);
-	padding: .5em;
-	border-radius: 1em;
-}
-footer>p {
-	margin-left: .52em;
-}
-}
-@media only screen and (min-width: 295px) and (max-width: 380px) {
-html {
-	background: url("../assets/images/backcovermobile.jpg") no-repeat center center fixed; 
-	height: 100%;
-}
-body {
-	width: 100%;
-	height: 100%;
-	background-color: rgba(98, 88, 147, .8);
-	overflow: scroll;
-}
-#container {
-	height: 50%;
-	width: 93%;
-}
-header {
-	width: 80%;
-	height: 40%;
-	margin: 0 0 0 2.1em;
-	padding: 1em 1em .3em 0;
-	text-align: center;
-	border-radius: 1em;
-}
-header h1 {
-	font-size: 155%;
-	background-color: rgba(35, 66, 126, .7);
-	padding: .5em;
-	color: rgba(253, 194, 170, .8);
-	text-align: center;
-	margin-top: 1.25em;
+	margin: 1.25em 0 .5em 0;
 }
 header h2 {
 	font-size: 80%;
@@ -309,7 +258,8 @@ nav {
 	margin: 3.5em 0 0 4.85em;
 	}
 footer {
-	margin: 4em 0 0 .7em;
+	width: 16em;
+	margin: 4em 0 0 1.7em;
 	background-color: rgba(35, 66, 126, .7);
 	padding: .5em;
 	border-radius: 1em;
