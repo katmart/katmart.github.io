@@ -1,0 +1,317 @@
+.above {
+	height: 140px;
+  background-color: #b8dce8;
+  color: #9e1f63;
+    border-bottom: 6px solid #9e1f63;
+}
+.single .thst-main-posts {
+   background-color: #fff2f4;
+
+}
+.single .content {
+    background-color: #b8dce8;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+  header.main-title a:link,
+header.main-title a:visited {
+   background-color: #fff2f4;
+  padding: 20px 0;
+  display: block;
+  font-size: 48px;
+  font-weight: 600;
+  color: #9e1f63;
+  opacity:1;
+}
+.row {
+  margin-right: 70px;
+  margin-left: 10px;
+}
+.entries .post {
+   background-color: #fff2f4;
+}
+.col-lg-2
+{
+  width: 25%;
+}
+body.page-template-pagepage-frontpage-php, body.archive.page {
+    background-color: #9e1f63; 
+}
+.latest-episode .main-featured-post .featured-excerpt {
+   background-color: rgba(0, 0, 0, 0.55);
+}
+.col-lg-3.col-md-3 {
+  height: 140px;
+  margin-top: 15px;
+}
+.col-lg-4 {
+ color: #fff2f4;
+}
+.col-lg-8 {
+ background-color: #fff2f4;
+  border-radius: 8px;
+  margin-top: 70px;
+}
+.col-lg-8.col-md-8.col-sm-8 {
+     background-color: #9e1f63;
+}
+.menu-menu1214-container {
+  background-color: #b8dce8;
+  padding-right: 15px;
+  color: #9e1f63;
+}
+.postfooter a:link, .postfooter a:visited {
+  color: #9e1f63; 
+}
+ul.col-lg-8 col-md-8 {
+  background-color: #9e1f63;
+}
+.row.col-.entries.post {
+  background-color: #fff2f4;
+}
+.single.content {
+     background-color: #fff2f4; 
+}
+.column {
+  background-color: rgba(184, 220, 255, .5);
+}
+.fromtheblog article .post-footer a {
+  font-size: 20px;
+}
+.footer-inner {
+  color: #b8dce8;
+  font-size: 16px;
+  width: 242px;
+}
+a h2 {
+  border-radius: 5px;
+  color: rgba(12, 67, 160, .9);
+}
+.fromtheblog article .post-header h2 a {
+ font-size: 22px; 
+  font-family: 'Josefin Sans';
+}
+.blog .heading {
+padding: 25px 0 70px;
+}
+.list-of-episodes article.list .post-header h2 a:link, .list-of-episodes article.list .post-header h2 a:visited {
+    font-size: 32px;
+  	font-family: 'Josefin Sans';
+    color: #9e1f63;
+}
+.archive .post.format-audio .featured-media .audio-caption, .archive .post.format-video .video-caption, .archive .post.format-image .entry-featured .image-caption, .archive .post.format-gallery .featured-gallery .gallery-caption {
+ background-color:  #fff2f4;
+} 
+footer a:link, footer a:visited {
+font-size: 28px;
+}
+h1.main-title.logo {
+  height: 140px;
+  width: 300px;
+}
+.post .entry-header .entry-date li a {
+line-height: 2px;
+  font-size: 16px;
+}
+.blog .static .heading .title {
+height: 4em;
+}
+footer.main {
+  background-color: #fff2f4;
+  height: 50px;
+  border-bottom: 3px solid #9e1f63;
+}
+.blog .static .transparent{
+  background-color: rgba(0, 0, 0, .35)
+}
+.list-of-episodes {
+  background-color: #fff2f4; 
+}
+.list-of-episodes .inside {
+  background-color:#b8dce8;
+    border-top: 2px solid #9e1f63;
+  border-bottom: 2px solid #6a7883;
+  overflow: hidden;
+   text-overflow: ellipsis;  
+  padding-bottom: 5px; 
+}
+.fromtheblog {
+  background-color: #b8dce8;
+  border-top: 6px solid #9e1f63;
+}
+.main-content {
+  rgba(116, 169, 214, .7); 
+}
+.postfooter {
+  background-color: #9e1f63;
+}
+.footers-widget:{
+  background-color: #9e1f63;
+}
+#nav .thst-menu li a {
+color: #9e1f63;
+}
+.arch_searchform {
+  padding: 4px; 
+}
+b, strong {
+color: #33;
+}
+h3 strong {
+color: ##6a7883;
+}
+.featured-excerpt p{
+ color: #fff2f4; 
+}
+.fromtheblog h2.title{
+font-size: 36px;
+  color: #9e1f63;
+}
+.sidebar .widget {
+  background-color: #fff2f4; 
+  color: #0c43a0;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+li.title {
+  font-size: 24px;
+}
+
+.list-of-episodes article.list .inside {
+padding: 35px;
+}
+
+.main-content, .post-type-archive-podcast.archive .main-content {
+background-color: #fff2f4;
+  font-size: 24px;
+}
+.single .single-featured{
+  padding: 35px 0 35px 0;
+}
+.blog .main-content .entries, .blog .main-content .sidebar {
+  padding-top:20px;
+}
+.post-content {
+height: 100px;  
+}
+.fromtheblog.list article .post-content .cats a:link, .fromtheblog.list article .post-content .cats a:visited {
+    background-color: #fff2f4; 
+    color: #9e1f63;
+}
+.fromtheblog.list {
+  background-color: #b8dce8;
+}
+#respond #commentform #submit, .wpcf7-form-control.wpcf7-submit {
+  background-color:#fff2f4;
+      color: #9e1f63;
+}
+input[type="submit"], .form-submit #submit, #respond #commentform #submit, a.butn:link, a.butn:visited, .butn
+{
+    background-color:#9e1f63;
+}
+  .archive .main-content, .search .main-content, .blog .main-content {
+  background-color:#b8dce8;
+}
+.latest-episode .main-featured-post .mini-title {
+    background-color: rgba(255,242,244,.5);
+    color: #9e1f63;
+  border-radius: 5px;
+  font-size: 27px;
+}
+.fromtheblog.list article {
+  border-top: 1px solid #aaa;
+}
+.single .single-featured span.mini-title {
+  background-color: rgba(255,242,244,.5);
+  color: #9e1f63;
+  font-size: 24px;
+}
+.page.page-template .post .entry-content, .page.page-template-default .post .entry-content {
+    background-color: #fff2f4;
+}
+.podcast_player {
+  display: none;
+}
+.podcast_meta {
+  display: none;
+}
+.page-template-pagepage-podcastarchive-php .entries.grid .podpost .entry-footer .podpost-meta .title a, .post-type-archive-podcast .entries.grid .podpost .entry-footer .podpost-meta .title a
+{
+  font-size: 22px;
+}
+.latest-episode .mini-title {
+  color: #B8DCFF;
+  font-size: 25px;
+}
+.latest-episode h2 {
+ font-size: 48px; 
+}
+.latest-episode h3 {
+font-size: 35px;
+}
+.page-template-pagepage-podcastarchive-php .entries.list .podpost .entry-footer .podpost-meta .title a, .post-type-archive-podcast .entries.list .podpost .entry-footer .podpost-meta .title a {
+  font-size: 28px;
+}
+.page-template-pagepage-podcastarchive-php .entries.list .podpost .entry-footer .podpost-meta .categories a, .post-type-archive-podcast .entries.list .podpost .entry-footer .podpost-meta .categories a, .page-template-pagepage-podcastarchive-php .entries.list .podpost .entry-footer .podpost-meta .categories span, .post-type-archive-podcast .entries.list .podpost .entry-footer .podpost-meta .categories span{
+ font-size: 22px;
+}
+.latest-episode .next-week .butn {
+ width: 85%; 
+  text-align: center;
+  line-height: 8px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 992px) {
+ h1.main-title.logo { 
+  margin-left: 95px;
+}
+
+  .list-of-episodes article.list .post-content {
+  overflow: none;
+  }
+ .list-of-episodes article.list .post-header h2 a:link, .list-of-episodes article.list .post-header h2 a:visited
+  {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #top.header h1.main-title a.small { 
+    font-size: 36px;
+  margin-left: 5em;
+}
+  .featured-excerpt p
+  {
+    font-size: 14px;
+  }
+h1.main-title.logo {
+    margin-left: 45px;
+}
+  .latest-episode h2 {
+  font-size: 32px;
+  margin-top: 22px;
+    text-align: center
+  }
+.latest-episode h3 {
+    font-size: 22px;
+  } 
+.latest-episode .main-featured-post .mini-title {
+  font-size: 18px;
+  letter-spacing: 0px;
+  font-family: 'Josefin Sans';
+  text-align: center;
+  }
+.blog .static .heading .title {
+   height: 3em;
+}
+  .blog .static .heading .title h1 {
+     font-size: 1em;
+  }
+  .list-of-episodes article.list .post-header h2 {
+  line-height: 25px;
+  }
+  .list-of-episodes article.list .post-header h2 a:link, .list-of-episodes article.list .post-header h2 a:visited
+  {
+  font-size: 18px;
+  }
+}
