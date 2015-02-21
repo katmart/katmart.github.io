@@ -141,7 +141,7 @@ footer>p {
 	margin-left: .7em;
 }
 }
-@media only screen and (min-width: 475px) and (max-width: 1274.999px) {
+@media only screen and (min-width: 925px) and (max-width: 1274.999px) {
 header {
 	width: 100%;
 	}
@@ -171,13 +171,13 @@ footer>p {
 	margin-left: .7em;
 }
 }
-@media only screen and (min-width: 412px) and (max-width: 875px) {
+@media only screen and (min-width: 585px) and (max-width: 925px) {
 #container {
 	height: 50%;
 	width: 50%;
 }
 header {
-	width: 120%;
+	width: 28em;
 	font-size: 100%;
 	margin: 0 1.95em 0 0;
 	padding: .7em 1.8em .3em 0;
@@ -195,7 +195,7 @@ header h2 {
 		margin-left: 2em;
 	}
 nav {
-	margin: 2em 0 0 2em;
+	margin: 1em 0 0 1em;
 	}
 nav a {
 	color: rgba(35, 66, 126, .7);
@@ -209,13 +209,63 @@ nav a {
 	}
 footer {
 	width: 19em;
-	margin: 2em 0 0 2em;
-	background-color: rgba(30, 30, 30, .5);
+	margin: 1em 0 0 1em;
+	background-color: rgba(55, 55, 55, .4);
 	padding: .5em;
 	border-radius: 1em;
 }
 footer>p {
 	margin-left: .7em;
+}
+}
+@media only screen and (min-width: 412px) and (max-width: 585px) {
+#container {
+	height: 50%;
+	width: 50%;
+}
+header {
+	width: 150%;
+	font-size: 100%;
+	margin: 0 1.95em 0 0;
+	padding: .7em 1.8em .3em 0;
+	border-radius: 2em;
+	}
+header h1 {
+	font-size: 140%;
+	color: rgba(182, 177, 200, .8);
+	margin-left: 1em;
+	}
+header h2 {
+		font-size: 90%;
+		color: rgba(182, 177, 200, .8);
+		letter-spacing: .02em;
+		margin-left: 1.3em;
+	}
+nav {
+	margin: 1em 0 0 1em;
+	}
+nav a {
+	font-size: 130%;
+	color: rgba(35, 66, 126, .7);
+	}
+
+.hbuttonone {
+	background-color: rgba(253, 194, 170, .8);
+	}
+.hbuttontwo {
+	background-color: rgba(182, 177, 200, .8);
+	}
+
+footer {
+	width: 14em;
+	margin: 1em 0 0 1em;
+	background-color: rgba(55, 55, 55, .4);
+	padding: .5em .5em .5em 0;
+	border-radius: 1em;
+}
+footer>p {
+	margin-left: .7em;
+	font-size: 30%;
 }
 }
 @media only screen and (min-width: 295px) and (max-width: 412px) {
