@@ -96,8 +96,7 @@ nav a {
 	color: rgba(98, 88, 147, .78);
 }
 }
-
-@media only screen and (min-width: 1275px) and (max-width: 1680px) {
+@media only screen and (min-width: 1400px) and (max-width: 1680px) {
 body {
 	background-color: rgba(35, 66, 126, .5);
 }
@@ -141,7 +140,10 @@ footer>p {
 	margin-left: .7em;
 }
 }
-@media only screen and (min-width: 925px) and (max-width: 1274.999px) {
+@media only screen and (min-width: 925px) and (max-width: 1400px) {
+#container {
+	background-color: rgba(33, 33, 33, .3);
+	}
 header {
 	width: 100%;
 	}
@@ -152,17 +154,17 @@ header h1 {
 header h2 {
 	font-size: 150%;
 	color: rgba(182, 177, 200, .8);
-	letter-spacing: .3em;
+	letter-spacing: .15em;
 	}
 nav {
 	width: 100%;
 	height: 4em;
-	margin: 3em 0 0 2em;
+	margin: 1em 0 0 1em;
 	padding: 9px;
 	}
 footer {
-	width: 19em;
-	margin: 2em 0 0 3.2em;
+	width: 16em;
+	margin: 2em 0 0 1.5em;
 	background-color: rgba(30, 30, 30, .5);
 	padding: .5em;
 	border-radius: 1em;
@@ -208,7 +210,7 @@ nav a {
 	background-color: rgba(182, 177, 200, .8);
 	}
 footer {
-	width: 19em;
+	width: 16em;
 	margin: 1em 0 0 1em;
 	background-color: rgba(55, 55, 55, .4);
 	padding: .5em;
@@ -257,7 +259,7 @@ nav a {
 	}
 
 footer {
-	width: 14em;
+	width: 12em;
 	margin: 1em 0 0 1em;
 	background-color: rgba(55, 55, 55, .4);
 	padding: .5em .5em .5em 0;
@@ -284,9 +286,9 @@ body {
 	width: 93%;
 }
 header {
-	width: 85%;
-	height: 40%;
-	margin: 0 1em 0 2.1em;
+	width: 18em;
+	height: 11em;
+	margin: 0 1em 0 1em;
 	padding: 1em 0 .3em 0;
 	text-align: center;
 	border-radius: 1em;
@@ -296,7 +298,7 @@ header h1 {
 	padding: .5em;
 	color: rgba(253, 194, 170, .8);
 	text-align: center;
-	margin: 1.25em 0 .5em 0;
+	margin: 2.25em 0 .5em 0;
 }
 header h2 {
 	font-size: 80%;
@@ -305,16 +307,17 @@ header h2 {
 	}
 nav {
 	width: 50%;
-	margin: 3.5em 0 0 4.85em;
+	margin: 2.5em 0 0 4.85em;
 	}
 footer {
-	width: 16em;
-	margin: 4em 0 0 1.7em;
-	background-color: rgba(35, 66, 126, .7);
+	width: 12em;
+	margin: 2.5em 0 0 3.67em;
+	background-color: rgba(55, 55, 55, .4);
 	padding: .5em;
 	border-radius: 1em;
 }
 footer>p {
 	margin-left: .52em;
+	font-size: 30%;
 }
 }
