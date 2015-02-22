@@ -92,7 +92,7 @@ nav#fixalign{
 }
 
 a:hover {
-	color: rgba(98, 88, 147, 1);
+	color: rgba(255, 216, 187, 1);
 	padding: .25em;
 	border-radius: 1em;
 }
@@ -177,6 +177,11 @@ clear: both;
 height: 0;
 }
 
+@media only screen and (min-width: 700px) and (max-width: 1180px) {
+aside {
+height: 265%;
+}
+}
 @media only screen and (min-width: 450px) and (max-width: 700px) {
 
 aside {
