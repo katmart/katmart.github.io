@@ -26,11 +26,11 @@ h2 {
 	color: rgba(98, 88, 147, .9);
 }
 aside {
-	position: absolute;  border-top: 8px solid #bb3388;
+	position: absolute;  
 	-moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    height: 121em;
+    height: 70em;
     overflow: auto;
 	width: 17em;
 	background-color: rgba(35, 66, 126, .9);
@@ -39,7 +39,7 @@ aside {
 	border-left: 8px solid rgba(253, 194, 170, 1);
 }
 aside h1 {
-	margin-top: 5em;
+	margin-top: 3.8em;
 }
 .rightcolumn {
 	width: 100%;
@@ -93,8 +93,14 @@ nav#fixalign{
 
 a:hover {
 	color: rgba(98, 88, 147, 1);
+	padding: .25em;
+	border-radius: 1em;
 }
+h1 a:hover {
+	background-color: rgba(182, 177, 200, .8);
+	color: rgba(141, 82, 63, .8);
 
+}
 .projectscontain#web {
 	float: left;
 	padding: .7em;
