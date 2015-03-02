@@ -93,7 +93,6 @@ nav#fixalign{
 
 a:hover {
 	color: rgba(255, 216, 187, 1);
-	padding: .25em;
 	border-radius: 1em;
 }
 h1 a:hover {
@@ -195,8 +194,8 @@ aside {
 	border-left: none;
 }
 aside h1 {
-	margin: 1em 0 0 1em;
-	font-size: 2em;
+	margin: 1em 0 1.4em 3em;
+	font-size: 1.8em;
 	text-align: left;
 }
 h1 a {
@@ -208,6 +207,10 @@ nav {
 	display: block;
 	text-align: center;
 }
+nav a {
+	font-size: 1.5em; d
+	width: 178px;
+}
 a:hover{
 	color: rgba(253, 194, 170, 1);
 }
@@ -216,14 +219,14 @@ a:hover{
 	text-align: center; 
 	background-color: rgba(141, 82, 63, .8);
 	margin-top: .2em;
-	margin-left: 3.8em;
+	margin-left: 7.3em;
 }
 .abuttontwo {
 	width: 13em;
 	text-align: center; 
 	background-color: rgba(182, 177, 200, .8);
 	margin-top: .2em;
-	margin-left: 3.8em;
+	margin-left: 7.3em;
 }
 .rightcolumn {
 	width: 100%;
