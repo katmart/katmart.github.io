@@ -215,18 +215,6 @@ nav a {
 .hbuttonone {
 	background-color: rgba(253, 194, 170, .8);
 	}
-
-footer {
-	width: 10em;
-	margin: .45em 0 0 1em;
-	background-color: rgba(55, 55, 55, .4);
-	padding: .5em .5em .5em 0;
-	border-radius: 1em;
-}
-footer>p {
-	margin-left: .7em;
-	font-size: 30%;
-}
 }
 @media only screen and (min-width: 295px) and (max-width: 412px) {
 html {
