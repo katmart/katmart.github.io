@@ -170,13 +170,13 @@ footer>p {
 }
 @media only screen and (min-width: 585px) and (max-width: 925px) {
 body {
-	background-color: rgba(33, 33, 33, .3);
+	background-color: rgba(35, 66, 126, .5);
 }
 #container {
 	width: 90%;
 }
 header {
-	width: 130%;
+	width: 190%;
 	}
 header h1 {
 	font-size: 210%;
@@ -199,16 +199,7 @@ nav a {
 .hbuttonone {
 	background-color: rgba(253, 194, 170, .8);
 	}
-footer {
-	width: 10em;
-	margin: 1em 0 0 1em;
-	background-color: rgba(55, 55, 55, .4);
-	padding: .5em;
-	border-radius: 1em;
-}
-footer>p {
-	margin-left: .7em;
-}
+
 }
 @media only screen and (min-width: 412px) and (max-width: 585px) {
 #container {
