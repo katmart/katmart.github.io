@@ -229,7 +229,7 @@ header {
 	}
 header h1 {
 	font-size: 120%;
-	color: rgba(182, 177, 200, .95);
+	color: rgba(0, 151, 127, .9);
 	margin-left: 1em;
 	}
 header h2 {
@@ -279,7 +279,7 @@ body {
 header {
 	width: 22em;
 	height: 7em;
-	margin: 0 1em 0 1em;
+	margin: 0 1em 0 0;
 	padding: 1em 0 .3em 0;
 	text-align: center;
 	border-radius: .5em;
@@ -287,7 +287,7 @@ header {
 header h1 {
 	font-size: 145%;
 	padding: .5em;
-	color: rgba(253, 194, 170, .8);
+	color: rgba(0, 151, 127, .9);
 	text-align: center;
 	margin: 2.25em 0 .5em 0;
 }
