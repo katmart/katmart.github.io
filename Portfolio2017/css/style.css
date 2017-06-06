@@ -149,7 +149,7 @@ nav {
 	padding: 9px;
 	}
 }
-@media only screen and (min-width: 585px) and (max-width: 925px) {
+@media only screen and (min-width: 412px) and (max-width: 925px) {
 body {
 	background-color: rgba(35, 66, 126, .5);
 }
@@ -181,40 +181,6 @@ nav a {
 	background-color: rgba(253, 194, 170, .8);
 	}
 
-}
-@media only screen and (min-width: 412px) and (max-width: 585px) {
-#container {
-	height: 50%;
-	width: 50%;
-}
-header {
-	width: 150%;
-	font-size: 90%;
-	margin: 0 1.55em 0 0;
-	padding: .7em 1.8em .3em 0;
-	border-radius: 2em;
-	}
-header h1 {
-	font-size: 120%;
-	color: rgba(0, 151, 127, .9);
-	margin-left: 1em;
-	}
-header h2 {
-	font-size: 90%;
-	color: rgba(0, 151, 127, .9);
-	letter-spacing: .02em;
-	margin-left: 1.5em;
-	}
-nav {
-	margin: .5em 0 0 1em;
-	}
-nav a {
-	font-size: 125%;
-	color: rgba(35, 66, 126, .7);
-	}
-.hbuttonone {
-	background-color: rgba(253, 194, 170, .8);
-	}
 }
 @media only screen and (min-width: 295px) and (max-width: 412px) {
 html {
