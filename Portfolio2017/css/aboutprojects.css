@@ -288,7 +288,7 @@ a:hover{
 }
 .abuttonone {
 	width: 9em;
-	background-color: rgba(141, 82, 63, 1);
+	background-color: rgba(253, 194, 170, .9);
 	font-size: .8em;
 	margin-top: .1em;
 	margin: 0 0 0 2.5em;
@@ -296,7 +296,7 @@ a:hover{
 }
 .abuttontwo {
 	width: 9em;
-	background-color: rgba(141, 82, 63, 1);
+	background-color: rgba(253, 194, 170, .9);
 	font-size: .8em;
 	margin-top: .2em;
 	margin: 1em 0 1em 2.5em;
