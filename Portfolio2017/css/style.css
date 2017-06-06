@@ -148,16 +148,6 @@ nav {
 	margin: 1em 0 0 1em;
 	padding: 9px;
 	}
-footer {
-	width: 10em;
-	margin: 2em 0 0 1.5em;
-	background-color: rgba(30, 30, 30, .5);
-	padding: .5em;
-	border-radius: 1em;
-}
-footer>p {
-	margin-left: .7em;
-}
 }
 @media only screen and (min-width: 585px) and (max-width: 925px) {
 body {
