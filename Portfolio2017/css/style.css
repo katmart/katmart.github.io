@@ -184,6 +184,7 @@ html {
 }
 body {
 	background-color: rgba(98, 88, 147, .8);
+	height: 200em;
 }
 #container {
 	height: 130%;
