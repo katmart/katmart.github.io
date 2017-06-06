@@ -184,15 +184,15 @@ header {
 	border-radius: 2em;
 	}
 header h1 {
-		font-size: 210%;
-		color: rgba(0, 151, 127, .9);
-		margin-left: 1em;
+	font-size: 210%;
+	color: rgba(0, 151, 127, .9);
+	margin-left: 1em;
 	}
 header h2 {
-		font-size: 120%;
-		color: rgba(182, 177, 200, .8);
-		letter-spacing: .05em;
-		margin-left: 2em;
+	font-size: 120%;
+	color: rgba(0, 151, 127, .9);
+	letter-spacing: .05em;
+	margin-left: 2em;
 	}
 nav {
 	margin: 1em 0 0 1em;
@@ -234,7 +234,7 @@ header h1 {
 	}
 header h2 {
 	font-size: 90%;
-	color: rgba(182, 177, 200, .8);
+	color: rgba(0, 151, 127, .9);
 	letter-spacing: .02em;
 	margin-left: 1.5em;
 	}
