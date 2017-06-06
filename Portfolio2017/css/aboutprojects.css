@@ -170,7 +170,7 @@ aside {
 height: 265%;
 }
 }
-@media only screen and (min-width: 550px) and (max-width: 710px) {
+@media only screen and (min-width: 450px) and (max-width: 710px) {
 
 aside {
 	position: relative;
@@ -233,81 +233,6 @@ a:hover{
 	width: 80%;
 	margin-top: 1em;
 	margin-left: 9.6em;
-}
-
-#about {
-	padding: 1em;
-	margin: 2.25em 5.45em .95em 1.9em;
-	font-size: 1em;
-}
-#resume{
-	margin: 1em 0;
-	font-size: 1em;
-}
-}
-@media only screen and (min-width: 450px) and (max-width: 550px) {
-
-aside {
-	position: relative;
-	-moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-	width: 108%;
-	clear: both;
-	height: 39%;
-	border-left: none;
-}
-aside h1 {
-	margin: 1em 0 1.4em 2.8em;
-	font-size: 1.8em;
-	text-align: left;
-}
-h1 a {
-	color: rgba(0, 151, 127, .9);
-	padding: .2em;
-}
-nav {
-	width: 100%;
-	display: block;
-	text-align: center;
-}
-nav a {
-	font-size: 1.5em; 
-	width: 178px;
-}
-a:hover{
-	color: rgba(253, 194, 170, 1);
-}
-.abuttonone {
-	width: 11.95em;
-	text-align: center; 
-	background-color: rgba(141, 82, 63, .8);
-	margin-top: .2em;
-	margin-left: 7.4em;
-}
-.abuttontwo {
-	width: 11.95em;
-	text-align: center; 
-	background-color: rgba(182, 177, 200, .8);
-	margin-top: .2em;
-	margin-left: 7.4em;
-}
-.rightcolumn {
-	width: 100%;
-	position: relative;
-	clear: both;
-	padding: .3em;
-	margin: .3em 1em 0 0;
-}
-#web.projectscontain {
-	width: 80%;
-	margin-top: 1em;
-	margin-left: 4.6em;
-}
-#other.projectscontain {
-	width: 80%;
-	margin-top: 1em;
-	margin-left: 4.6em;
 }
 
 #about {
