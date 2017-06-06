@@ -206,7 +206,7 @@ nav a {
 	width: 178px;
 }
 a:hover{
-	color: rgba(253, 194, 170, 1);
+	color: rgba(0, 151, 127, .9);
 }
 .abuttonone {
 	width: 11.95em;
@@ -277,7 +277,7 @@ aside h1 {
 	text-align: left;
 }
 h1 a {
-	color: rgba(253, 194, 170, 1);
+	color: rgba(0, 151, 127, .9);
 	padding: .2em;
 }
 nav {
