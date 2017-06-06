@@ -9,7 +9,7 @@ body {
 	font-size: 1em;
 }
 header {
-	padding:1em;
+	padding: 1em;
 }
 
 h1 {
@@ -48,7 +48,6 @@ aside h1 {
 	float: left;
 	padding: .3em;
 	margin: 4em 0 0 18em;
-	
 }
 .rightcolumn h1 {
 	padding:0 0 2em 1em;
@@ -153,11 +152,6 @@ figcaption>h1 {
 	margin-bottom: -1.75em;
 	margin-left: -1em;
 }
-
-footer>p {
-	font-family: 'Droid Sans';
-	display: inline;
-}
 .socialmedia {
 	display: inline;
 }
@@ -250,15 +244,6 @@ a:hover{
 	margin: 1em 0;
 	font-size: 1em;
 }
-footer {
-	width: 60%;
-	margin: 0 0 0 15em;
-	border-radius: 1em; 
-	text-align: left;
-}
-footer#moveleft {
-	margin: 0;
-}
 }
 @media only screen and (min-width: 450px) and (max-width: 550px) {
 
@@ -333,15 +318,6 @@ a:hover{
 #resume{
 	margin: 1em 0;
 	font-size: 1em;
-}
-footer {
-	width: 60%;
-	margin: 0 0 0 10em;
-	border-radius: 1em; 
-	text-align: left;
-}
-footer#moveleft {
-	margin: 0;
 }
 }
 @media only screen and (max-width: 450px) {
@@ -431,16 +407,6 @@ p {
 }
 figcaption h1 {
 	font-size: 1.5em;
-}
-footer {
-	position: relative;
-	width: 13em;
-	margin: .7em 0 0 2em;
-	padding: .05em;
-	border-radius: 2em;
-}
-footer#moveleft {
-	margin-left: 0;
 }
 }
 
