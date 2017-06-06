@@ -11,17 +11,14 @@ body {
 header {
 	padding: 1em;
 }
-
 h1 {
 	font-family: 'Alfa Slab One';
 	font-size: 1.35em;
         color: rgba(141, 82, 63, .8);
 }
-
 a {
 	text-decoration: none;
 }
-
 h2 {
 	font-family: 'Alfa Slab One';
 	font-size: 1.75em;
@@ -184,8 +181,8 @@ aside {
 	background-color: rgba(182, 177, 200, .8)
 }
 aside h1 {
-	margin: .25em 0 1.4em 2.5em;
-	font-size: 1.8em;
+	margin: .25em 0 1.4em 1.5em;
+	font-size: 1.7em;
 	text-align: left;
 }
 h1 a {
@@ -198,7 +195,7 @@ nav {
 }
 nav a {
 	font-size: 1.5em; 
-	width: 178px;
+	width: 12em;
 	color: rgba(0, 151, 127, .9);
 }
 a:hover{
