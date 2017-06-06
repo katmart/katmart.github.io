@@ -195,9 +195,7 @@ body {
 header {
 	width: 150%;
 	height: 7em;
-	margin: 0 1em;
 	padding: 1em 0;
-	text-align: center;
 	border-radius: .9em;
 }
 header h1 {
