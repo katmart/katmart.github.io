@@ -122,16 +122,7 @@ header h1 {
 	background-color: rgba(98, 88, 147, .78);
 	letter-spacing: .1em;
 	}
-footer {
-	width: 10em;
-	margin: 0 0 0 3.2em;
-	background-color: rgba(30, 30, 30, .5);
-	padding: .5em;
-	border-radius: 1em;
-}
-footer>p {
-	margin-left: .7em;
-}
+
 }
 @media only screen and (min-width: 925px) and (max-width: 1400px) {
 body{	
