@@ -181,6 +181,7 @@ aside {
 	clear: both;
 	height: 39%;
 	border-left: none;
+	background-color: rgba(182, 177, 200, .8)
 }
 aside h1 {
 	margin: .25em 0 1.4em 5.75em;
@@ -259,6 +260,7 @@ aside {
 	height: 18em;
 	border-left: none;
 	overflow: auto;
+	background-color: rgba(182, 177, 200, .8);
 }
 aside h1 {
 	margin: 1em 0 0 1em;
