@@ -221,15 +221,4 @@ nav {
 	width: 50%;
 	margin: 2.5em 0 0 6.57em;
 	}
-footer {
-	width: 7em;
-	margin: 2.5em 0 0 6.97em;
-	background-color: rgba(55, 55, 55, .4);
-	padding: .5em;
-	border-radius: 1em;
-}
-footer>p {
-	margin-left: .52em;
-	font-size: 30%;
-}
 }
