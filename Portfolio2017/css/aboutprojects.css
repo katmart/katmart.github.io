@@ -51,6 +51,7 @@ aside h1 {
 }
 p {
    color: rgba(98, 88, 147, .9);
+   font-size: 1em;
 }
 .rightcolumn p {
 	font-family: 'Droid Sans';
