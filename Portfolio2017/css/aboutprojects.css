@@ -278,10 +278,10 @@ nav a {
 	text-align: left;
 }
 h1 a {
-	color: rgba(253, 194, 170, 1);
+	color: rgba(141, 82, 63, .8);
 }
 a:hover{
-	color: rgba(253, 194, 170, 1);
+	color: rgba(182, 177, 200, .8);
 }
 .abuttonone {
 	width: 9em;
