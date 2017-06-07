@@ -153,7 +153,6 @@ figcaption>h1 {
 .socialmedia {
 	display: inline;
 }
-
 .clearfix:after {
 visibility: hidden;
 display: block;
@@ -162,14 +161,12 @@ content: " ";
 clear: both;
 height: 0;
 }
-
 @media only screen and (min-width: 710px) and (max-width: 1180px) {
 aside {
 height: 265%;
 }
 }
 @media only screen and (min-width: 450px) and (max-width: 710px) {
-
 aside {
 	position: relative;
 	-moz-box-sizing: border-box;
@@ -252,6 +249,25 @@ h1 {
 header{
 	padding: 0;
 }
+	
+aside {
+	position: absolute;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	width: 108%;
+	height: 18em;
+	border-left: none;
+	overflow: auto;
+}
+aside h1 {
+	margin: 1em 0 0 1em;
+	text-align: left; 
+	font-size: 1.5em;
+}
+aside#firstaboutpage {
+	height: 13em;
+}	
 nav {
 	position: relative;
 	display: block;
@@ -307,12 +323,10 @@ a:hover{
 	margin: 1em 5.45em 1em 0;
 	font-size: 1em;
 }
-
 p {
-	font-size: 175%;
+	font-size: 135%;
 }
 figcaption h1 {
 	font-size: 1.5em;
 }
 }
-
