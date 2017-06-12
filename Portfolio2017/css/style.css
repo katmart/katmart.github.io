@@ -179,7 +179,7 @@ nav a {
 }
 @media only screen and (min-width: 295px) and (max-width: 412px) {
 html {
-	background: url("../assets/images/backcovermobile.jpg") no-repeat center center fixed; 
+	background: url("../assets/images/cover.jpg") no-repeat center center fixed; 
 	height: 100%;
 }
 body {
