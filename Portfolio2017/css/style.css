@@ -7,11 +7,6 @@ html {
   overflow: hidden;
   background-color: rgba(55, 55, 55, .4);
 }
-#container {
-    height: 100em;
-	width: 150em;
-	background-color: rgba(33, 33, 33, .5);
-}
 body {
 	font-size: 16px;
 	font-family: 'Alfa Slab One';
