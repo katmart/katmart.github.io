@@ -167,13 +167,13 @@ img {
 	margin: 3px;
 }
 figure {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 figcaption{
 	width: 20em;
 }
 figcaption>h1 {
-	margin-bottom: -1.75em;
+	margin-bottom: -1.25em;
 	margin-left: -1em;
 }
 .socialmedia {
