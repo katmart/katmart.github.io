@@ -12,6 +12,10 @@ body {
 	font-family: 'Alfa Slab One';
 	position: relative;
 }
+#container {
+    width: 100em; 
+    margin: 0 1;
+}
 header {
 	padding: .5em 0 .5em 1em;
 	text-align: left;
